@@ -3,7 +3,7 @@ Zima USBL Host application
 
 ### RUS
 
-Это тестовая версия приложения. В случае необходимости используйте стабильную предыдущую версию: [ZimaHost](https://github.com/ucnl/ZimaHost2)  
+Это тестовая версия приложения. В случае необходимости используйте стабильную предыдущую версию: [ZimaHost2](https://github.com/ucnl/ZimaHost2)  
 
 Для того, чтобы скачать самый свежий релиз, используйте кнопку 'releases' или прямую ссылку: [Latest ZHost release](https://github.com/ucnl/ZHost/releases/download/1.0/ZHost.zip)  
   
