@@ -1,4 +1,4 @@
-# ZHost (Beta)
+# ZimaHost 3 (Beta)
 Zima USBL Host application
 
 ### RUS
