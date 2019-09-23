@@ -31,7 +31,7 @@ namespace ZHost
         string logFileName;
         string snapshotsPath;
 
-        Dictionary<string, List<GeoPoint3DT>> tracks;
+        Dictionary<string, List<GeoPoint3DTm>> tracks;
         bool isTracksEmpty;
         bool IsTracksEmpty
         {
@@ -118,7 +118,7 @@ namespace ZHost
 
             #region Misc
 
-            tracks = new Dictionary<string, List<GeoPoint3DT>>();
+            tracks = new Dictionary<string, List<GeoPoint3DTm>>();
             IsTracksEmpty = true;
 
             #endregion
@@ -128,13 +128,14 @@ namespace ZHost
             zcore = new ZCore(new SerialPortSettings(settingsProvider.Data.ZPortName, settingsProvider.Data.ZPortBaudrate,
                 System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None),
                 settingsProvider.Data.IsRedPhoneCompatibilityMode);
+            
 
             zcore.LogEventHandler += (o, e) => logger.Write(string.Format("{0}: {1}", e.EventType, e.LogString));
             zcore.ZPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, zmaStateLbl, string.Format("ZMA: {0}", zcore.ZPortState));
 
             zcore.GNSSPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, gnssStateLbl, string.Format("GNSS: {0}", zcore.GNSSPortState));
             zcore.HDGPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, hdgStateLbl, string.Format("HDG: {0}", zcore.HDGPortState));
-            zcore.GeoLocationUpdatedEventHandler += (o, e) => TracksWritePoint(e.ItemName, new GeoPoint3DT(e.Latitude, e.Longitude, e.Depth, e.TimeStamp));
+            zcore.GeoLocationUpdatedEventHandler += (o, e) => TracksWritePoint(e.ItemName, new GeoPoint3DTm(e.Latitude, e.Longitude, e.Depth, e.TimeStamp));
             zcore.OutPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, outPortStateLbl, string.Format("OUT: {0}", zcore.OutPortState));
 
             if (settingsProvider.Data.IsAUX1 || settingsProvider.Data.IsAUX2)
@@ -355,10 +356,10 @@ namespace ZHost
             logger.Write(string.Format("IsAutoQuery = {0}", zcore.IsAutoQuery));
         }
 
-        private void TracksWritePoint(string key, GeoPoint3DT point)
+        private void TracksWritePoint(string key, GeoPoint3DTm point)
         {
             if (!tracks.ContainsKey(key))
-                tracks.Add(key, new List<GeoPoint3DT>());
+                tracks.Add(key, new List<GeoPoint3DTm>());
 
             tracks[key].Add(point);
 

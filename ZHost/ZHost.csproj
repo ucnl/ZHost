@@ -51,9 +51,9 @@
     <Reference Include="UCNLUI">
       <HintPath>..\..\..\UCNLLibs\UCNLUI\UCNLUI\bin\Release\UCNLUI.dll</HintPath>
     </Reference>
-    <Reference Include="ZLibrary, Version=1.0.7153.23133, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="ZLibrary, Version=1.0.7159.2145, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\UCNLLibs\ZLibrary\bin\Release\ZLibrary.dll</HintPath>
+      <HintPath>..\..\..\UCNLLibs\ZLibrary\ZLibrary\bin\Release\ZLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

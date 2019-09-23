@@ -6,7 +6,7 @@ using ZLibrary;
 namespace ZHost
 {
     [Serializable]
-    public class SettingsContainer
+    public class SettingsContainer : SimpleSettingsContainer
     {
         #region Properties
 
@@ -47,19 +47,10 @@ namespace ZHost
         public bool IsUseVTGAsHeadingSource;
 
         #endregion
-
-        #region Constructor
-
-        public SettingsContainer()
-        {
-            SetDefaultValues();
-        }
-
-        #endregion
-
+        
         #region Methods
 
-        public void SetDefaultValues()
+        public override void SetDefaults()
         {
             ZPortName = "COM1";
             ZPortBaudrate = BaudRate.baudRate9600;
