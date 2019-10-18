@@ -127,8 +127,11 @@
     <value>ДОПОЛНИТЕЛЬНО</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="isUseOutputPortChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 197</value>
+  </data>
   <data name="isUseOutputPortChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>246, 24</value>
+    <value>318, 29</value>
   </data>
   <data name="isUseOutputPortChb.Text" xml:space="preserve">
     <value>Использовать выходной порт</value>
@@ -137,31 +140,34 @@
     <value>Выходной порт</value>
   </data>
   <data name="isOutputPortSaveSeparatelyChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 24</value>
+    <value>304, 29</value>
   </data>
   <data name="isOutputPortSaveSeparatelyChb.Text" xml:space="preserve">
     <value>Сохранять журнал отдельно</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 20</value>
+    <value>121, 25</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Адрес маяка</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>93, 25</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Скорость</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>49, 25</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Имя</value>
   </data>
+  <data name="isUseAUX2Chb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 197</value>
+  </data>
   <data name="isUseAUX2Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 24</value>
+    <value>221, 29</value>
   </data>
   <data name="isUseAUX2Chb.Text" xml:space="preserve">
     <value>Использовать AUX2</value>
@@ -170,19 +176,22 @@
     <value>Порт AUX2</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>93, 25</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Скорость</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>49, 25</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Имя</value>
   </data>
+  <data name="isUseAUX1Chb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 11</value>
+  </data>
   <data name="isUseAUX1Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 24</value>
+    <value>221, 29</value>
   </data>
   <data name="isUseAUX1Chb.Text" xml:space="preserve">
     <value>Использовать AUX1</value>
@@ -191,13 +200,13 @@
     <value>Порт AUX1</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>93, 25</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Скорость</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>49, 25</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Имя</value>
@@ -206,13 +215,13 @@
     <value>Порт ZMA</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>93, 25</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Скорость</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>49, 25</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Имя</value>
@@ -220,14 +229,20 @@
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Дополнительно</value>
   </data>
+  <data name="isHeadingFixedChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 29</value>
+  </data>
+  <data name="isHeadingFixedChb.Text" xml:space="preserve">
+    <value>Антенна неподвижна</value>
+  </data>
   <data name="isRedPhoneModeChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 24</value>
+    <value>194, 29</value>
   </data>
   <data name="isRedPhoneModeChb.Text" xml:space="preserve">
     <value>Режим RedPhone</value>
   </data>
   <data name="isRoughDepthChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 24</value>
+    <value>416, 29</value>
   </data>
   <data name="isRoughDepthChb.Text" xml:space="preserve">
     <value>Менее точная оценка глубины (быстрее)</value>
@@ -236,13 +251,13 @@
     <value>Скорость звука</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 20</value>
+    <value>182, 25</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Скорость звука, м/с</value>
   </data>
   <data name="isAutocalculateSoundSpeedChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 24</value>
+    <value>287, 29</value>
   </data>
   <data name="isAutocalculateSoundSpeedChb.Text" xml:space="preserve">
     <value>Авторасчет скорости звука</value>
@@ -251,7 +266,7 @@
     <value>Соленость</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 20</value>
+    <value>147, 25</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>Соленость, PSU</value>
@@ -260,13 +275,13 @@
     <value>Временные интервалы</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 20</value>
+    <value>260, 25</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>Максимальная дистанция, м</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 20</value>
+    <value>286, 25</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Порог устаревания данных, сек</value>
@@ -277,7 +292,7 @@
   <data name="selectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -295,7 +310,7 @@
   <data name="deselectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -779,8 +794,11 @@
         g94SkhvPnv0fwtFap1o8mCwAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 473</value>
+  </data>
   <data name="isUseVTGAsHeadingSourceChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 24</value>
+    <value>567, 29</value>
   </data>
   <data name="isUseVTGAsHeadingSourceChb.Text" xml:space="preserve">
     <value>Использовать VTG как данные курса (не рекомендуется)</value>

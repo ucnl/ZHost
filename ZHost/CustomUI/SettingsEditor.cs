@@ -67,6 +67,7 @@ namespace ZHost.CustomUI
                 result.SoundSpeed = soundSpeed;
                 result.ZPortBaudrate = zmaBaudRate;
                 result.ZPortName = zmaPortName;
+                result.IsHeadingFixed = isHeadingFixed;
 
                 return result;
             }
@@ -97,6 +98,7 @@ namespace ZHost.CustomUI
                 soundSpeed = value.SoundSpeed;
                 zmaBaudRate = value.ZPortBaudrate;
                 zmaPortName = value.ZPortName;
+                isHeadingFixed = value.IsHeadingFixed;
             }
         }
 
@@ -260,6 +262,12 @@ namespace ZHost.CustomUI
             set { isRoughDepthChb.Checked = value; }
         }
 
+        bool isHeadingFixed
+        {
+            get { return isHeadingFixedChb.Checked; }
+            set { isHeadingFixedChb.Checked = value; }
+        }
+
         #endregion
 
         #region MISC. Tab
@@ -417,7 +425,7 @@ namespace ZHost.CustomUI
         private void isUseAUX1Chb_CheckedChanged(object sender, EventArgs e)
         {
             aux1PortGoup.Enabled = isUseAUX1;
-            CheckSettingsValidity();
+            CheckSettingsValidity();            
         }
 
         private void aux1PortNameCbx_SelectedIndexChanged(object sender, EventArgs e)
@@ -428,7 +436,7 @@ namespace ZHost.CustomUI
         private void isUseAUX2Chb_CheckedChanged(object sender, EventArgs e)
         {
             aux2PortGoup.Enabled = isUseAUX2;
-            CheckSettingsValidity();
+            CheckSettingsValidity();            
         }
 
         private void aux2PortNameCbx_SelectedIndexChanged(object sender, EventArgs e)
@@ -501,6 +509,6 @@ namespace ZHost.CustomUI
             chb.ItemCheck += usedRespondersChl_ItemCheck;
 
             CheckSettingsValidity();
-        }        
+        }             
     }
 }

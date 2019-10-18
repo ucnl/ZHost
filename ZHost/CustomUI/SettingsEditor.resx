@@ -117,1015 +117,512 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pbLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 303</value>
-  </data>
-  <data name="commonTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>656, 413</value>
-  </data>
-  <data name="&gt;&gt;pbLeft.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="isUseAUX2Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 24</value>
-  </data>
-  <data name="aux1PortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
+  <data name="&gt;&gt;salinityGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="isRoughDepthChb.AutoSize" type="System.Boolean, mscorlib">
+  <data name="isUseAUX1Chb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;miscTabPage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="pbRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>281, 303</value>
-  </data>
-  <data name="&gt;&gt;aux2PortNameCbx.Parent" xml:space="preserve">
-    <value>aux2PortGoup</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pbRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX2Chb.Name" xml:space="preserve">
-    <value>isUseAUX2Chb</value>
-  </data>
-  <data name="&gt;&gt;connectionTabPage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>aux1PortGoup</value>
-  </data>
-  <data name="usedRespondersChl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 58</value>
-  </data>
-  <data name="&gt;&gt;isRoughDepthChb.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;aux1PortBaudrateCbx.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="&gt;&gt;aux2PortBaudrateCbx.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="aux1PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 53</value>
-  </data>
-  <data name="aux2PortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="outputPortResponderAddressCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="outputPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="soundSpeedLink.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 20</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="isUseAUX2Chb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="selectAllBtn.ToolTipText" xml:space="preserve">
-    <value>Select all</value>
-  </data>
-  <data name="&gt;&gt;selectAllBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dYEdit.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="outputPortResponderAddressCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="commonTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="outputPortGroup.Text" xml:space="preserve">
-    <value>Output Port</value>
-  </data>
-  <data name="&gt;&gt;salinityEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;outputPortNameCbx.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Baudrate</value>
-  </data>
-  <data name="zmaPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Port name</value>
-  </data>
-  <data name="dYEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;aux2PortBaudrateCbx.Parent" xml:space="preserve">
-    <value>aux2PortGoup</value>
-  </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 20</value>
-  </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>𝛅, °</value>
-  </data>
-  <data name="deselectAllBtn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;maxDistanceEdit.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>timingsGroup</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;aux2PortNameCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;isRedPhoneModeChb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedGroup.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="outputPortResponderAddressCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="zmaPortGroup.Text" xml:space="preserve">
-    <value>ZMA Port</value>
-  </data>
-  <data name="&gt;&gt;zmaPortNameCbx.Parent" xml:space="preserve">
-    <value>zmaPortGroup</value>
-  </data>
-  <data name="aux2PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 53</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 67</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>𝚫Y, m</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 29</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 20</value>
-  </data>
-  <data name="isUseAUX1Chb.Text" xml:space="preserve">
-    <value>Use AUX1</value>
-  </data>
-  <data name="aux1PortGoup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;miscTabPage.Name" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="respondersToolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 28</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 20</value>
-  </data>
-  <data name="&gt;&gt;setDefaultsBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>aux1PortGoup</value>
-  </data>
-  <data name="soundSpeedEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 17</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Max distance, m</value>
-  </data>
-  <data name="outputPortGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 213</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 152</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>aux2PortGoup</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersGroup.Name" xml:space="preserve">
-    <value>usedRespondersGroup</value>
-  </data>
-  <data name="usedRespondersGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>SettingsEditor</value>
-  </data>
-  <data name="&gt;&gt;connectionTabPage.Name" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="aux2PortGoup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="isUseOutputPortChb.Text" xml:space="preserve">
-    <value>Use output port</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="okBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="okBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>431, 480</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;salinityEdit.Parent" xml:space="preserve">
-    <value>salinityGroup</value>
-  </data>
-  <data name="&gt;&gt;isRedPhoneModeChb.Name" xml:space="preserve">
-    <value>isRedPhoneModeChb</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedLink.Name" xml:space="preserve">
-    <value>soundSpeedLink</value>
-  </data>
-  <data name="isUseOutputPortChb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="zmaPortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="salinityGroup.Text" xml:space="preserve">
-    <value>Salinity</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedEdit.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="zmaPortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="mainTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="isRedPhoneModeChb.Text" xml:space="preserve">
-    <value>RedPhone mode</value>
-  </data>
-  <data name="&gt;&gt;isAutocalculateSoundSpeedChb.Name" xml:space="preserve">
-    <value>isAutocalculateSoundSpeedChb</value>
-  </data>
-  <data name="maxDistanceEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="soundSpeedGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="outputPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 53</value>
-  </data>
-  <data name="&gt;&gt;salinityGroup.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>outputPortGroup</value>
-  </data>
-  <data name="&gt;&gt;dYEdit.Name" xml:space="preserve">
-    <value>dYEdit</value>
-  </data>
-  <data name="deselectAllBtn.ToolTipText" xml:space="preserve">
-    <value>Unselect all</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;zmaPortBaudrateCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="selectAllBtn.Text" xml:space="preserve">
-    <value>☑</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="isUseAUX2Chb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>346, 161</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="isRoughDepthChb.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="respondersToolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="outputPortGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;isRoughDepthChb.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="deltaEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="soundSpeedLink.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;outputPortResponderAddressCbx.Name" xml:space="preserve">
-    <value>outputPortResponderAddressCbx</value>
-  </data>
-  <data name="&gt;&gt;isRedPhoneModeChb.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 51</value>
-  </data>
-  <data name="deselectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
-        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
-        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
-        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
-        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
-        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
-        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
-        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
-        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
-        AElFTkSuQmCC
-</value>
-  </data>
-  <data name="&gt;&gt;okBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;isAutocalculateSoundSpeedChb.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="usedRespondersGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;deselectAllBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="isUseAUX1Chb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>346, 9</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="commonTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 35</value>
-  </data>
-  <data name="soundSpeedLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 18</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;aux1PortBaudrateCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="okBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;isUseOutputPortChb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="miscTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>656, 413</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedLink.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="timingsGroup.Text" xml:space="preserve">
-    <value>Timings</value>
-  </data>
-  <data name="aux2PortNameCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;aux1PortGoup.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 29</value>
-  </data>
-  <data name="timingsGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 9</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="isUseAUX2Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Baudrate</value>
-  </data>
-  <data name="&gt;&gt;miscTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="outputPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 17</value>
-  </data>
-  <data name="isUseOutputPortChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="aux1PortGoup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 41</value>
-  </data>
-  <data name="commonTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;aux1PortBaudrateCbx.Parent" xml:space="preserve">
-    <value>aux1PortGoup</value>
-  </data>
-  <data name="isRoughDepthChb.Text" xml:space="preserve">
-    <value>Rough depth (faster)</value>
-  </data>
-  <data name="respondersToolStrip.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;mainTabControl.Name" xml:space="preserve">
-    <value>mainTabControl</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 20</value>
-  </data>
-  <data name="&gt;&gt;outputPortNameCbx.Name" xml:space="preserve">
-    <value>outputPortNameCbx</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 93</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersGroup.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="salinityLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 20</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;commonTabPage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 161</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="outputPortGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="connectionTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 35</value>
-  </data>
-  <data name="usedRespondersGroup.Text" xml:space="preserve">
-    <value>Responders in use</value>
-  </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="setDefaultsBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="mainTabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>664, 452</value>
-  </data>
-  <data name="&gt;&gt;cancelBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Port name</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
-  </data>
-  <data name="&gt;&gt;salinityGroup.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Salinity, PSU</value>
-  </data>
-  <data name="&gt;&gt;dXEdit.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;outputPortGroup.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pbLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAT0AAAHMCAIAAAAoN+h2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAJE9JREFUeF7tnU2PHUcVhu04dhwSnMgLCAaiAYMiBcW6REIIyYthEyM+xCAQJEKI
-        kbNhdllYsrOINAjJ0mziVRYoCy9ndrNgAyskW6wt2I/G/2B+gnnT59xKubpvf3d11en3WYy6uvr27dtd
-        T5/T3dU1554Rczx48OCjjz7SArEIvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUI
-        vTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUI
-        vTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUI
-        vTUPvTUIvTUPvTUIvTUPvbXG3bt3L1y4cP78+Q8++EBnEXPQW1McHh7C2HNr/v73v2sFsQW9tcPZ2dk7
-        77yjyhZcuXLl9PRUq4kh6K0d9vf31VePnZ0drSaGoLdGePLkyeuvv66yPs/x8bEuRKxAby2ADHl7e1s1
-        LQGfsYAuSkxAby0QZMgvv/zyV7/6VS0UMFs2Br3NntPT0yBDhqW/+93vtLCG2bIl6G32BBmyhFYkxh99
-        9JHOKoDbsjwxAL3NmwcPHqiXBZDzyZMnUgV1t7a2tKJgd3dXqkju0NuMKWfI0FjrCv79739rxRrM0TqS
-        M/Q2Y5ASq44FSJi1wiNYBhFYK0jO0NtcqcmQfcrZMl85MAC9zZJyhry/v691z54dF2ihKluuNJxkBL3N
-        knKG7PesKL/Hx2zZGPQ2Px4+fKj+FSDwBnebyt7C6pr4TLKD3mZGGwPL3gJkzvqBNcyW84XeZsbu7q5q
-        V7BarfwMWYCQleGU2bIZ6G1OBDGznCHXA8P1k2uC570kF+htNpQz5B5PdMrZMl+szxF6mw2wVFUrQJZb
-        zpDbEPRnruytQRKH3uZBOU727rFYzpYfPnyodSQT6G0GwLTVaqWSFdRnyFi+PvstP0litpwX9DYDumbI
-        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
-        h96ah9628hbLZDRQK701D71t5S3IaNQ4emseetvWWyyWyxA29NY89LattxkN1EpvzUNv23oLchmold6a
-        h9528DaXgVrprXnobQdvAXxIP+TSW/PQ227eZjFqHL01D73t5i1If9Q4emseetvZ2/RHjUvT28PDQ+zt
-        4P/WXi/QQsHJyQkWOzg40PIaeutDbzt7CxIPuWl6e+vWLext/NXyGsz0LcUCe3t7WvCgtz70to+3iYfc
-        BL2VKPr48WP5q3MLJA5jATct8wPorQ+97eMtQMhNtukk6C0iqkTaynDqZuJwBIm0g9760Nue3qY8UGuC
-        3uIiVpLhyogq0RjLlLNoB731obc9vQXJDtSamreSHksmDDBdDqqIt/4yZeb19unTpzqVBvS2v7doSWmG
-        3NS8hZN+IA2KQMTGzGC+T3xv8RWvvPLKxYsXz58/L1/6wgsvXLhw4cMPP9Ql5oPe9vcWpDlqXGreYif7
-        ATYIvwBFyaKDJX1ievvLX/4Sur744ov6ZefOQV0YK9OwF3+vXbumS88BvR3kLVaV4KhxSXlbeUHrLncB
-        wq97hIuZWLgyW47jLfLhGzduYP0SY6GoWIq/zlvHSy+9FNwbjwa9HeQtSHDUuKS8Reor94p94Ke4KrHX
-        b/2b7k5F8BbSQk5f0fIECAT++OOP9fMRobdDvYW0qY0al463ouUm9vf38TewWj5SVj2Ct1/72tdk5fXe
-        +khYjn/Xit4O9RakFnKTirdjMbW3X//610XOcrzFX+DuTrkJXABLFn3p0iVdSyzo7QjeYg1JhVx62xUE
-        TF1vgegKLWXCzbl48aKbFtz0b37zG11XFOjtCN4ChFw0LC3MDb3tys2bN7FOCZ6VEy7GCtAVc/yZL730
-        kq4rCvR2HG+xknQGaqW3XdGVFrgQ6rQsawxQ6wde8M9//lNXNz30dhxvQTqjxtHbTtTfPPNxokq8lWnH
-        z3/+c13j9NDb0bzFehIZwobeduLo6EhX2pog0gpItnWN00NvR/M2nYFa79y5c/36deTtlvjpT3+qB6zg
-        nXfe0YrBfOMb39CVFrhAKhP4KxNIkkVXF2ylQ5VMg6985St6AKaH3o7mLUhkoFbEol/96lfHtvj000/1
-        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
-        TLT8FCjfl9IKK9Bb8wzyVsKv06/sLSTc29uTOQ4nZ9lbzEctPoLTgc7ajO8twAr9Yg30Nkforc8gb2GO
-        r2XZWxE7CIPim9TqrAL5CCakVmbWUPa2fCKo5O7du1jYQW+zgN769PcWxmL3aaGg7C3+BsETaskyqA00
-        w2Luyha1vpOV+N7iW9xn68Hhf+ONN7B+B73NAnrr09NbCaSBeJXeOlEFCCaylT/e1UMs/8UBXKNza8Gx
-        39ra+tvf/qafKaC3WUBvfXp6C2eglhbWVHqLablqdTOL+tBbORFoYV2UjwN8F4qC+17fc1lz/VXx6enp
-        arWCpby+zRF669PHW5jj/PTZ5C3mS/CEV04t1PreYoHicDxHvYe+twALV26VcHZ25t4ZoLc5Qm99Onsr
-        kdBXzrHJW4D5MkeKwF+JVAXrrPcQlL3dlFpD2u3tbdeU6W2O0Fufzt5il20KgzXeSsj1U2vUOlErFa2U
-        2cf3Vhb2NXaU3xmgtzlCb326eetfZ/pIoKvxFpSLzklM+0o7sFpZcyX4LnzQ0VJaYN5bNPEs/h9KJ+it
-        T5/r24yoHLLcvLcmobc+lr1FmK0cSJXe5gi99THrLY7rptGP6W2O0Fsfm97ioG5tbW0a/Zje5gi99THo
-        LTyskRaY9xZZRqYjttdAb32seQsnIS3+arkK896iTfM5kG26eYsmjv2VLJ988smbb77ZOPoxvc0ReuvT
-        zVtpEMly+/bto6Mj3dbN0Nscobc+Nu9L1UNvc4Te+tBbg96CygdgWUNvfeitTW/tQW996C29zQN660Nv
-        6W0e0Fsfektv84De+tBbg94eF2jBCvTWh94a9BZtms+BbENvz33wwQdoBGa4f//+j3/847feekvLVrhz
-        544esALM0cO5SOgtyRJ6uzg+//xzPfgkW5Al6eFcJEv09unTp3rwSbbcu3dPD+ciWaK3YGdnR48/yZAf
-        /vCHeiCXykK9Ff773/+eWuSTTz754x//qAVzIF3S47dgFu2tVR5YfA5EfOitQeiteeitQeiteeitQeit
-        eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeit
-        eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeit
-        eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQZ48efLw4UMtEIvQW0Ly
-        g94SkhvPnv0fwtFap1o8mCwAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="maxDistanceEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 49</value>
-  </data>
-  <data name="aux2PortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="aux1PortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="isRedPhoneModeChb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 156</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX2Chb.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;aux1PortNameCbx.Name" xml:space="preserve">
-    <value>aux1PortNameCbx</value>
-  </data>
-  <data name="&gt;&gt;dXEdit.Name" xml:space="preserve">
-    <value>dXEdit</value>
-  </data>
-  <data name="mainTabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>zmaPortGroup</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="isUseAUX1Chb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 29</value>
   </data>
   <data name="selectAllBtn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
+  <data name="&gt;&gt;aux2PortGoup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cancelBtn.ZOrder" xml:space="preserve">
+  <data name="dataObsoleteThresholdEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 20</value>
+  </data>
+  <data name="&gt;&gt;aux2PortBaudrateCbx.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="deltaEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 40</value>
+  <data name="aux1PortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
+  <data name="&gt;&gt;isUseAUX2Chb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
   </data>
-  <data name="&gt;&gt;outputPortGroup.Name" xml:space="preserve">
-    <value>outputPortGroup</value>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;selectAllBtn.Name" xml:space="preserve">
-    <value>selectAllBtn</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="zmaPortGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="salinityEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 27</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="usedRespondersChl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;connectionTabPage.Parent" xml:space="preserve">
-    <value>mainTabControl</value>
-  </data>
-  <data name="aux1PortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+  <data name="isUseOutputPortChb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="isUseAUX1Chb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;pbLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>soundSpeedGroup</value>
+  <data name="dataObsoleteThresholdEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 32</value>
   </data>
-  <data name="cancelBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="soundSpeedEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 16</value>
+  <data name="&gt;&gt;zmaPortNameCbx.Name" xml:space="preserve">
+    <value>zmaPortNameCbx</value>
   </data>
-  <data name="salinityLink.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Max distance, m</value>
   </data>
   <data name="&gt;&gt;isAutocalculateSoundSpeedChb.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="connectionTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
+  <data name="miscTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
   </data>
-  <data name="usedRespondersChl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
+  <data name="&gt;&gt;pbRight.Name" xml:space="preserve">
+    <value>pbRight</value>
   </data>
-  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="usedRespondersChl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 414</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;isUseAUX2Chb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
+  <data name="&gt;&gt;outputPortResponderAddressCbx.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;miscTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;zmaPortGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="salinityLink.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
-  <data name="salinityGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="salinityLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 18</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.Text" xml:space="preserve">
-    <value>Save separately</value>
-  </data>
-  <data name="&gt;&gt;aux2PortBaudrateCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="zmaPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 53</value>
-  </data>
-  <data name="okBtn.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>timingsGroup</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="isRoughDepthChb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="aux1PortGoup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
-  <data name="aux2PortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 53</value>
+  <data name="isHeadingFixedChb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="zmaPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 53</value>
+  <data name="isUseAUX2Chb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 202</value>
   </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="soundSpeedGroup.Text" xml:space="preserve">
+    <value>Sound speed</value>
   </data>
-  <data name="isUseAUX2Chb.Text" xml:space="preserve">
-    <value>Use AUX2</value>
-  </data>
-  <data name="dXEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 40</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="zmaPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersGroup.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="&gt;&gt;timingsGroup.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;deltaEdit.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="salinityEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 89</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="aux2PortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;okBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;soundSpeedEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="zmaPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
   </data>
-  <data name="pbRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 73</value>
-  </data>
-  <data name="outputPortGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 193</value>
-  </data>
-  <data name="aux2PortGoup.Text" xml:space="preserve">
-    <value>AUX2 Port</value>
+  <data name="&gt;&gt;deltaEdit.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;maxDistanceEdit.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="aux2PortGoup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="usedRespondersChl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="isRedPhoneModeChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 29</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="dYEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.Name" xml:space="preserve">
+    <value>isUseAUX1Chb</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="outputPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 66</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>aux1PortGoup</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.Name" xml:space="preserve">
+    <value>isOutputPortSaveSeparatelyChb</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cancelBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="respondersToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 23</value>
+  <data name="&gt;&gt;zmaPortGroup.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
   </data>
-  <data name="usedRespondersChl.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;aux1PortBaudrateCbx.Name" xml:space="preserve">
+    <value>aux1PortBaudrateCbx</value>
+  </data>
+  <data name="aux2PortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isHeadingFixedChb.Text" xml:space="preserve">
+    <value>Antenna heading is fixed</value>
+  </data>
+  <data name="isUseAUX2Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;timingsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aux1PortGoup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;setDefaultsBtn.Name" xml:space="preserve">
+    <value>setDefaultsBtn</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;pbLeft.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="mainTabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="dataObsoleteThresholdEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="zmaPortGroup.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="mainTabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 19</value>
+  <data name="&gt;&gt;soundSpeedEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>timingsGroup</value>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="commonTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>905, 521</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Port name</value>
+  </data>
+  <data name="isRedPhoneModeChb.Text" xml:space="preserve">
+    <value>RedPhone mode</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="setDefaultsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mainTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 565</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="&gt;&gt;isRoughDepthChb.Name" xml:space="preserve">
+    <value>isRoughDepthChb</value>
+  </data>
+  <data name="pbLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 379</value>
+  </data>
+  <data name="soundSpeedGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 240</value>
+  </data>
+  <data name="aux2PortGoup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="&gt;&gt;aux2PortBaudrateCbx.Name" xml:space="preserve">
+    <value>aux2PortBaudrateCbx</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 36</value>
+  </data>
+  <data name="maxDistanceEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 25</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 36</value>
+  </data>
+  <data name="&gt;&gt;aux2PortBaudrateCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="commonTabPage.Text" xml:space="preserve">
+    <value>COMMON</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 36</value>
+  </data>
+  <data name="&gt;&gt;isRoughDepthChb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cancelBtn.Text" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="outputPortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="isUseOutputPortChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="salinityEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 32</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="isUseAUX1Chb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 11</value>
+  </data>
+  <data name="deltaEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>771, 50</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Port name</value>
+  </data>
+  <data name="isUseAUX1Chb.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aux1PortGoup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="&gt;&gt;zmaPortGroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsEditor</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="aux2PortGoup.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="connectionTabPage.Text" xml:space="preserve">
+    <value>CONNECTION</value>
+  </data>
+  <data name="&gt;&gt;outputPortNameCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salinityLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 22</value>
+  </data>
+  <data name="miscTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="soundSpeedEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="usedRespondersGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Port name</value>
+  </data>
+  <data name="salinityGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 126</value>
+  </data>
+  <data name="selectAllBtn.Text" xml:space="preserve">
+    <value>☑</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="selectAllBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;selectAllBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salinityEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 20</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 36</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedEdit.Parent" xml:space="preserve">
+    <value>soundSpeedGroup</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="&gt;&gt;dYEdit.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Sound speed, m/s</value>
+  </data>
+  <data name="salinityGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="usedRespondersGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 11</value>
+  </data>
+  <data name="&gt;&gt;dYEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zmaPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;salinityEdit.Parent" xml:space="preserve">
+    <value>salinityGroup</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="outputPortGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="aux2PortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="setDefaultsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.Text" xml:space="preserve">
+    <value>Save separately</value>
+  </data>
+  <data name="zmaPortGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;outputPortResponderAddressCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="setDefaultsBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="zmaPortGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 51</value>
+  </data>
+  <data name="&gt;&gt;respondersToolStrip.Name" xml:space="preserve">
+    <value>respondersToolStrip</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedGroup.Name" xml:space="preserve">
+    <value>soundSpeedGroup</value>
+  </data>
+  <data name="isUseOutputPortChb.Text" xml:space="preserve">
+    <value>Use output port</value>
+  </data>
+  <data name="&gt;&gt;zmaPortNameCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="connectionTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>905, 521</value>
+  </data>
+  <data name="isUseAUX1Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="soundSpeedLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 25</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="isUseAUX2Chb.Text" xml:space="preserve">
+    <value>Use AUX2</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>aux1PortGoup</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pbLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="isHeadingFixedChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="pbRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1435,341 +932,767 @@
         7+sCIRVDwRFCagsFRwipKe/e/X/gfT6iCmBQWgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="isUseOutputPortChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;okBtn.Name" xml:space="preserve">
-    <value>okBtn</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedEdit.Parent" xml:space="preserve">
-    <value>soundSpeedGroup</value>
-  </data>
-  <data name="&gt;&gt;respondersToolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="miscTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 24</value>
-  </data>
-  <data name="pbLeft.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;salinityLink.Name" xml:space="preserve">
-    <value>salinityLink</value>
-  </data>
-  <data name="&gt;&gt;outputPortNameCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="outputPortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 29</value>
-  </data>
-  <data name="&gt;&gt;commonTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="soundSpeedLink.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="isUseOutputPortChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 24</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="aux1PortNameCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cancelBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 35</value>
-  </data>
-  <data name="setDefaultsBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 35</value>
-  </data>
-  <data name="&gt;&gt;aux2PortBaudrateCbx.Name" xml:space="preserve">
-    <value>aux2PortBaudrateCbx</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="isUseAUX2Chb.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="&gt;&gt;zmaPortNameCbx.Name" xml:space="preserve">
-    <value>zmaPortNameCbx</value>
-  </data>
-  <data name="usedRespondersGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 395</value>
-  </data>
-  <data name="aux2PortGoup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 193</value>
-  </data>
-  <data name="&gt;&gt;maxDistanceEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dXEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="timingsGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="outputPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 53</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedEdit.Name" xml:space="preserve">
-    <value>soundSpeedEdit</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 20</value>
-  </data>
-  <data name="usedRespondersChl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 331</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.Text" xml:space="preserve">
-    <value>Sound speed autocalculation</value>
-  </data>
-  <data name="&gt;&gt;outputPortBaudrateCbx.Parent" xml:space="preserve">
-    <value>outputPortGroup</value>
-  </data>
-  <data name="cancelBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
-  </data>
-  <data name="isUseAUX2Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="soundSpeedGroup.Text" xml:space="preserve">
-    <value>Sound speed</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pbRight.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Baudrate</value>
-  </data>
-  <data name="dYEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedGroup.Name" xml:space="preserve">
-    <value>soundSpeedGroup</value>
-  </data>
-  <data name="zmaPortGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="salinityGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 101</value>
-  </data>
-  <data name="aux2PortGoup.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="setDefaultsBtn.Text" xml:space="preserve">
-    <value>SET DEFAULTS</value>
-  </data>
-  <data name="aux1PortGoup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;zmaPortGroup.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="aux2PortGoup.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="dataObsoleteThresholdEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedGroup.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="selectAllBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="maxDistanceEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="outputPortResponderAddressCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="cancelBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersChl.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Name" xml:space="preserve">
-    <value>isUseVTGAsHeadingSourceChb</value>
-  </data>
-  <data name="commonTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="isRoughDepthChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="aux1PortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Port name</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX2Chb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="zmaPortGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 89</value>
-  </data>
-  <data name="&gt;&gt;aux1PortNameCbx.Parent" xml:space="preserve">
-    <value>aux1PortGoup</value>
-  </data>
-  <data name="deselectAllBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
-  </data>
-  <data name="&gt;&gt;deselectAllBtn.Name" xml:space="preserve">
-    <value>deselectAllBtn</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="&gt;&gt;pbRight.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="setDefaultsBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
-  </data>
-  <data name="dXEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="okBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="soundSpeedGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;okBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;aux2PortGoup.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="aux1PortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 53</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="deltaEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 27</value>
-  </data>
-  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="soundSpeedLink.Text" xml:space="preserve">
-    <value>. . .</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>zmaPortGroup</value>
-  </data>
-  <data name="&gt;&gt;setDefaultsBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="salinityGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;isRedPhoneModeChb.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;deltaEdit.Name" xml:space="preserve">
-    <value>deltaEdit</value>
-  </data>
-  <data name="&gt;&gt;isRoughDepthChb.Name" xml:space="preserve">
-    <value>isRoughDepthChb</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="soundSpeedGroup.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;aux1PortGoup.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="setDefaultsBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;respondersToolStrip.Parent" xml:space="preserve">
+    <value>usedRespondersGroup</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="commonTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="aux2PortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;okBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dYEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="usedRespondersChl.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;outputPortGroup.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="outputPortResponderAddressCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="pbRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dXEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="isHeadingFixedChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 29</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;zmaPortBaudrateCbx.Name" xml:space="preserve">
+    <value>zmaPortBaudrateCbx</value>
+  </data>
+  <data name="okBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 44</value>
+  </data>
+  <data name="aux1PortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="&gt;&gt;deselectAllBtn.Name" xml:space="preserve">
+    <value>deselectAllBtn</value>
+  </data>
+  <data name="usedRespondersGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="aux1PortNameCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="zmaPortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;maxDistanceEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="outputPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersGroup.Name" xml:space="preserve">
+    <value>usedRespondersGroup</value>
+  </data>
+  <data name="soundSpeedGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;salinityGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;connectionTabPage.Name" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="&gt;&gt;pbRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="okBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;dXEdit.Name" xml:space="preserve">
+    <value>dXEdit</value>
+  </data>
+  <data name="isUseAUX1Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="&gt;&gt;aux2PortGoup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>timingsGroup</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SettingsEditor</value>
+  </data>
+  <data name="aux1PortGoup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 51</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 25</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;pbRight.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="outputPortGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;miscTabPage.Parent" xml:space="preserve">
+    <value>mainTabControl</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 29</value>
+  </data>
+  <data name="respondersToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="aux1PortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;aux1PortGoup.Name" xml:space="preserve">
+    <value>aux1PortGoup</value>
+  </data>
+  <data name="isUseOutputPortChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;outputPortGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;connectionTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dXEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="outputPortResponderAddressCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="okBtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="aux2PortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;isRoughDepthChb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="outputPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="dYEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 50</value>
+  </data>
+  <data name="&gt;&gt;salinityGroup.Name" xml:space="preserve">
+    <value>salinityGroup</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isRedPhoneModeChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="&gt;&gt;aux1PortNameCbx.Parent" xml:space="preserve">
+    <value>aux1PortGoup</value>
+  </data>
+  <data name="&gt;&gt;connectionTabPage.Parent" xml:space="preserve">
+    <value>mainTabControl</value>
+  </data>
+  <data name="commonTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>𝚫Y, m</value>
+  </data>
+  <data name="dYEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;outputPortBaudrateCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zmaPortGroup.Text" xml:space="preserve">
+    <value>ZMA Port</value>
+  </data>
+  <data name="dataObsoleteThresholdEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="soundSpeedLink.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mainTabControl.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="&gt;&gt;isRedPhoneModeChb.Name" xml:space="preserve">
+    <value>isRedPhoneModeChb</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
+  </data>
+  <data name="soundSpeedLink.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;respondersToolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="isRedPhoneModeChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="soundSpeedEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 21</value>
+  </data>
   <data name="pbLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 73</value>
+    <value>14, 91</value>
   </data>
-  <data name="isUseAUX1Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 24</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>zmaPortGroup</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 29</value>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="salinityGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;timingsGroup.Name" xml:space="preserve">
+    <value>timingsGroup</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 111</value>
+  </data>
+  <data name="&gt;&gt;miscTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salinityLink.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;outputPortNameCbx.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="zmaPortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="respondersToolStrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="zmaPortGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 111</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="isUseAUX2Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="isRoughDepthChb.Text" xml:space="preserve">
+    <value>Rough depth (faster)</value>
+  </data>
+  <data name="aux2PortGoup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>zmaPortGroup</value>
+  </data>
+  <data name="salinityLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 25</value>
+  </data>
+  <data name="&gt;&gt;deltaEdit.Name" xml:space="preserve">
+    <value>deltaEdit</value>
+  </data>
+  <data name="&gt;&gt;zmaPortGroup.Name" xml:space="preserve">
+    <value>zmaPortGroup</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Salinity</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 36</value>
+  </data>
+  <data name="cancelBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>soundSpeedGroup</value>
+  </data>
+  <data name="aux1PortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="outputPortGroup.Text" xml:space="preserve">
+    <value>Output Port</value>
+  </data>
+  <data name="connectionTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="&gt;&gt;commonTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soundSpeedLink.Text" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;setDefaultsBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="cancelBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="outputPortNameCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="aux1PortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;aux1PortBaudrateCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pbRight.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="commonTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 195</value>
+  </data>
+  <data name="&gt;&gt;outputPortBaudrateCbx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dXEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
+  <data name="&gt;&gt;deltaEdit.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersChl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salinityLink.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="aux2PortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 21</value>
+  </data>
+  <data name="cancelBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="zmaPortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;maxDistanceEdit.Parent" xml:space="preserve">
+    <value>timingsGroup</value>
+  </data>
+  <data name="&gt;&gt;salinityEdit.Name" xml:space="preserve">
+    <value>salinityEdit</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="soundSpeedEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="aux2PortGoup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="outputPortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="outputPortGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 241</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="soundSpeedEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="dataObsoleteThresholdEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;aux1PortGoup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="commonTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="maxDistanceEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 61</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 478</value>
+  </data>
+  <data name="isHeadingFixedChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 106</value>
+  </data>
+  <data name="aux1PortGoup.Text" xml:space="preserve">
+    <value>AUX1 Port</value>
+  </data>
+  <data name="soundSpeedGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="&gt;&gt;okBtn.Name" xml:space="preserve">
+    <value>okBtn</value>
+  </data>
+  <data name="&gt;&gt;commonTabPage.Parent" xml:space="preserve">
+    <value>mainTabControl</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="okBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 600</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 25</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="isHeadingFixedChb.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="outputPortGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="zmaPortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;aux1PortNameCbx.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="zmaPortNameCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;okBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>soundSpeedGroup</value>
+  </data>
+  <data name="zmaPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="usedRespondersChl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="deltaEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
+  <data name="salinityGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isRedPhoneModeChb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="timingsGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;setDefaultsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outputPortGroup.Name" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersGroup.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salinityGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="outputPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
   </data>
   <data name="&gt;&gt;maxDistanceEdit.Name" xml:space="preserve">
     <value>maxDistanceEdit</value>
   </data>
-  <data name="isUseVTGAsHeadingSourceChb.Text" xml:space="preserve">
-    <value>Use VTG data as heading source (not recommended)</value>
+  <data name="timingsGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="outputPortResponderAddressCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 117</value>
+  <data name="&gt;&gt;isUseAUX2Chb.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="deltaEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Name" xml:space="preserve">
+    <value>isUseVTGAsHeadingSourceChb</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outputPortResponderAddressCbx.Parent" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedGroup.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pbLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;aux1PortNameCbx.Name" xml:space="preserve">
+    <value>aux1PortNameCbx</value>
+  </data>
+  <data name="aux2PortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 66</value>
+  </data>
+  <data name="isUseAUX2Chb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isRoughDepthChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>𝚫X, m</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;isRoughDepthChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbLeft.Name" xml:space="preserve">
+    <value>pbLeft</value>
+  </data>
+  <data name="&gt;&gt;dataObsoleteThresholdEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="selectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="usedRespondersChl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.Parent" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="connectionTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="aux2PortNameCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="soundSpeedGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;outputPortBaudrateCbx.Parent" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="isUseOutputPortChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 202</value>
+  </data>
+  <data name="miscTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="connectionTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isUseAUX2Chb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 29</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="outputPortResponderAddressCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="aux2PortGoup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 111</value>
+  </data>
+  <data name="&gt;&gt;timingsGroup.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
   </data>
   <data name="&gt;&gt;aux1PortNameCbx.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dataObsoleteThresholdEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="isUseAUX1Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="timingsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 25</value>
+  </data>
+  <data name="selectAllBtn.ToolTipText" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="usedRespondersGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Data obsolete threshold, s</value>
   </data>
   <data name="&gt;&gt;isAutocalculateSoundSpeedChb.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1777,400 +1700,834 @@
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
     <value>salinityGroup</value>
   </data>
-  <data name="soundSpeedEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="aux1PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 66</value>
   </data>
-  <data name="okBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 35</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="connectionTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>656, 413</value>
-  </data>
-  <data name="isUseOutputPortChb.TabIndex" type="System.Int32, mscorlib">
+  <data name="pbRight.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;aux1PortGoup.Name" xml:space="preserve">
-    <value>aux1PortGoup</value>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
-  <data name="isUseOutputPortChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 161</value>
-  </data>
-  <data name="&gt;&gt;aux1PortNameCbx.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="zmaPortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;dYEdit.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="salinityLink.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;cancelBtn.Name" xml:space="preserve">
-    <value>cancelBtn</value>
-  </data>
-  <data name="aux1PortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="miscTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="isRedPhoneModeChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SettingsEditor</value>
-  </data>
-  <data name="deselectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 25</value>
-  </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;isUseOutputPortChb.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>soundSpeedGroup</value>
-  </data>
-  <data name="miscTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="dataObsoleteThresholdEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;zmaPortNameCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="deselectAllBtn.Text" xml:space="preserve">
-    <value>☐</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Salinity</value>
-  </data>
-  <data name="&gt;&gt;pbLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="isRoughDepthChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 24</value>
-  </data>
-  <data name="aux2PortGoup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="salinityLink.Text" xml:space="preserve">
-    <value>. . .</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="outputPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="soundSpeedGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 382</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>outputPortGroup</value>
-  </data>
-  <data name="&gt;&gt;miscTabPage.Parent" xml:space="preserve">
-    <value>mainTabControl</value>
-  </data>
-  <data name="timingsGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;zmaPortGroup.Name" xml:space="preserve">
-    <value>zmaPortGroup</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="aux2PortGoup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 89</value>
-  </data>
-  <data name="aux1PortGoup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 89</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="dYEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 27</value>
-  </data>
-  <data name="&gt;&gt;okBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Misc.</value>
-  </data>
-  <data name="isUseAUX1Chb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Sound speed, m/s</value>
-  </data>
-  <data name="cancelBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="outputPortNameCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="salinityGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 53</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedLink.Parent" xml:space="preserve">
-    <value>soundSpeedGroup</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersChl.Name" xml:space="preserve">
-    <value>usedRespondersChl</value>
-  </data>
-  <data name="&gt;&gt;timingsGroup.Name" xml:space="preserve">
-    <value>timingsGroup</value>
-  </data>
-  <data name="&gt;&gt;pbLeft.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;outputPortBaudrateCbx.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="aux2PortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="aux2PortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="isUseAUX1Chb.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="salinityLink.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;outputPortGroup.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="usedRespondersGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 9</value>
-  </data>
-  <data name="&gt;&gt;commonTabPage.Name" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="&gt;&gt;dXEdit.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="timingsGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 84</value>
-  </data>
-  <data name="isUseAUX1Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="soundSpeedGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 192</value>
-  </data>
-  <data name="&gt;&gt;dataObsoleteThresholdEdit.Parent" xml:space="preserve">
-    <value>timingsGroup</value>
-  </data>
-  <data name="soundSpeedEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;timingsGroup.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
-  </data>
-  <data name="outputPortGroup.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="zmaPortGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 41</value>
-  </data>
-  <data name="salinityEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 16</value>
-  </data>
-  <data name="&gt;&gt;outputPortGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="aux1PortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;setDefaultsBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;zmaPortBaudrateCbx.Name" xml:space="preserve">
-    <value>zmaPortBaudrateCbx</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="deselectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 32</value>
   </data>
   <data name="&gt;&gt;salinityEdit.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 480</value>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
-  <data name="aux1PortGoup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="&gt;&gt;isUseOutputPortChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="pbLeft.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="usedRespondersGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="setDefaultsBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="cancelBtn.Text" xml:space="preserve">
-    <value>CANCEL</value>
-  </data>
-  <data name="&gt;&gt;aux2PortGoup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;salinityLink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>𝚫X, m</value>
-  </data>
-  <data name="&gt;&gt;aux2PortNameCbx.Name" xml:space="preserve">
-    <value>aux2PortNameCbx</value>
-  </data>
-  <data name="soundSpeedLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 20</value>
-  </data>
-  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.Name" xml:space="preserve">
-    <value>isOutputPortSaveSeparatelyChb</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="aux2PortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="&gt;&gt;pbLeft.Name" xml:space="preserve">
-    <value>pbLeft</value>
-  </data>
-  <data name="&gt;&gt;aux2PortGoup.Name" xml:space="preserve">
-    <value>aux2PortGoup</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="outputPortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="aux2PortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="isUseOutputPortChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;mainTabControl.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;isUseAUX2Chb.Name" xml:space="preserve">
+    <value>isUseAUX2Chb</value>
   </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;outputPortGroup.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;pbRight.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
+  <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 600</value>
   </data>
-  <data name="setDefaultsBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 481</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;salinityLink.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dXEdit.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="isRoughDepthChb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Data obsolete threshold, s</value>
+  <data name="&gt;&gt;setDefaultsBtn.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="isUseAUX1Chb.Text" xml:space="preserve">
+    <value>Use AUX1</value>
   </data>
-  <data name="isUseAUX2Chb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="maxDistanceEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 20</value>
-  </data>
-  <data name="&gt;&gt;respondersToolStrip.Parent" xml:space="preserve">
-    <value>usedRespondersGroup</value>
-  </data>
-  <data name="outputPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="&gt;&gt;zmaPortNameCbx.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="aux2PortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="&gt;&gt;dataObsoleteThresholdEdit.Name" xml:space="preserve">
+    <value>dataObsoleteThresholdEdit</value>
   </data>
   <data name="&gt;&gt;respondersToolStrip.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.Parent" xml:space="preserve">
-    <value>outputPortGroup</value>
+  <data name="miscTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>905, 521</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;salinityLink.Parent" xml:space="preserve">
+    <value>salinityGroup</value>
   </data>
-  <data name="&gt;&gt;outputPortResponderAddressCbx.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;aux1PortBaudrateCbx.Parent" xml:space="preserve">
+    <value>aux1PortGoup</value>
   </data>
-  <data name="isOutputPortSaveSeparatelyChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>aux2PortGoup</value>
   </data>
-  <data name="maxDistanceEdit.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;dXEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.Text" xml:space="preserve">
+    <value>Sound speed autocalculation</value>
+  </data>
+  <data name="&gt;&gt;isRedPhoneModeChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Text" xml:space="preserve">
+    <value>Use VTG data as heading source (not recommended)</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 25</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;isUseAUX2Chb.Parent" xml:space="preserve">
+  <data name="&gt;&gt;mainTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;isUseOutputPortChb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;zmaPortBaudrateCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="salinityEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="deselectAllBtn.ToolTipText" xml:space="preserve">
+    <value>Unselect all</value>
+  </data>
+  <data name="&gt;&gt;zmaPortBaudrateCbx.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="miscTabPage.Text" xml:space="preserve">
+    <value>MISC.</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedLink.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 25</value>
+  </data>
+  <data name="&gt;&gt;salinityGroup.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>aux2PortGoup</value>
+  </data>
+  <data name="deselectAllBtn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="outputPortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="aux2PortGoup.Text" xml:space="preserve">
+    <value>AUX2 Port</value>
+  </data>
+  <data name="&gt;&gt;dYEdit.Name" xml:space="preserve">
+    <value>dYEdit</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;isRedPhoneModeChb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="aux1PortGoup.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="soundSpeedEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 32</value>
+  </data>
+  <data name="&gt;&gt;aux2PortNameCbx.Parent" xml:space="preserve">
+    <value>aux2PortGoup</value>
+  </data>
+  <data name="dYEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Port name</value>
+  </data>
+  <data name="aux1PortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="setDefaultsBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="deselectAllBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="mainTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="aux1PortGoup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="okBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="isUseOutputPortChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 29</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 201</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedEdit.Name" xml:space="preserve">
+    <value>soundSpeedEdit</value>
+  </data>
+  <data name="&gt;&gt;aux1PortBaudrateCbx.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="outputPortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="salinityGroup.Text" xml:space="preserve">
+    <value>Salinity</value>
+  </data>
+  <data name="salinityEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="deltaEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="isAutocalculateSoundSpeedChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="timingsGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;aux2PortGoup.Name" xml:space="preserve">
+    <value>aux2PortGoup</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersChl.Name" xml:space="preserve">
+    <value>usedRespondersChl</value>
+  </data>
+  <data name="outputPortResponderAddressCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 146</value>
+  </data>
+  <data name="soundSpeedLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="setDefaultsBtn.Text" xml:space="preserve">
+    <value>SET DEFAULTS</value>
+  </data>
+  <data name="setDefaultsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 601</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>954, 662</value>
+  </data>
+  <data name="&gt;&gt;dataObsoleteThresholdEdit.Parent" xml:space="preserve">
+    <value>timingsGroup</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isUseAUX1Chb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersGroup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="isHeadingFixedChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="deltaEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;outputPortNameCbx.Name" xml:space="preserve">
+    <value>outputPortNameCbx</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="maxDistanceEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 32</value>
+  </data>
+  <data name="&gt;&gt;salinityLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soundSpeedLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 22</value>
+  </data>
+  <data name="&gt;&gt;isHeadingFixedChb.Name" xml:space="preserve">
+    <value>isHeadingFixedChb</value>
+  </data>
+  <data name="salinityGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 66</value>
+  </data>
+  <data name="&gt;&gt;selectAllBtn.Name" xml:space="preserve">
+    <value>selectAllBtn</value>
+  </data>
+  <data name="&gt;&gt;zmaPortBaudrateCbx.Parent" xml:space="preserve">
+    <value>zmaPortGroup</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zmaPortNameCbx.Parent" xml:space="preserve">
+    <value>zmaPortGroup</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;aux1PortGoup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isHeadingFixedChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="timingsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 105</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="isUseAUX2Chb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="maxDistanceEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="deltaEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;isUseOutputPortChb.Name" xml:space="preserve">
+    <value>isUseOutputPortChb</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.Name" xml:space="preserve">
+    <value>cancelBtn</value>
+  </data>
+  <data name="&gt;&gt;connectionTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="okBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="maxDistanceEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;mainTabControl.Name" xml:space="preserve">
+    <value>mainTabControl</value>
+  </data>
+  <data name="aux1PortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 36</value>
+  </data>
+  <data name="&gt;&gt;aux2PortGoup.Parent" xml:space="preserve">
     <value>connectionTabPage</value>
   </data>
-  <data name="selectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="&gt;&gt;outputPortNameCbx.Parent" xml:space="preserve">
+    <value>outputPortGroup</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 84</value>
+  </data>
+  <data name="zmaPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 66</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aux2PortGoup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 241</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="&gt;&gt;aux2PortNameCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isOutputPortSaveSeparatelyChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="timingsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 11</value>
+  </data>
+  <data name="isRedPhoneModeChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 69</value>
+  </data>
+  <data name="&gt;&gt;miscTabPage.Name" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 190</value>
+  </data>
+  <data name="&gt;&gt;aux2PortBaudrateCbx.Parent" xml:space="preserve">
+    <value>aux2PortGoup</value>
+  </data>
+  <data name="pbRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="zmaPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 66</value>
+  </data>
+  <data name="isOutputPortSaveSeparatelyChb.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="soundSpeedEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 20</value>
+  </data>
+  <data name="&gt;&gt;deselectAllBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        iVBORw0KGgoAAAANSUhEUgAAAT0AAAHMCAIAAAAoN+h2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAJE9JREFUeF7tnU2PHUcVhu04dhwSnMgLCAaiAYMiBcW6REIIyYthEyM+xCAQJEKI
+        kbNhdllYsrOINAjJ0mziVRYoCy9ndrNgAyskW6wt2I/G/2B+gnnT59xKubpvf3d11en3WYy6uvr27dtd
+        T5/T3dU1554Rczx48OCjjz7SArEIvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUI
+        vTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUI
+        vTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUIvTUPvTUI
+        vTUPvTUIvTUPvTUIvTUPvbXG3bt3L1y4cP78+Q8++EBnEXPQW1McHh7C2HNr/v73v2sFsQW9tcPZ2dk7
+        77yjyhZcuXLl9PRUq4kh6K0d9vf31VePnZ0drSaGoLdGePLkyeuvv66yPs/x8bEuRKxAby2ADHl7e1s1
+        LQGfsYAuSkxAby0QZMgvv/zyV7/6VS0UMFs2Br3NntPT0yBDhqW/+93vtLCG2bIl6G32BBmyhFYkxh99
+        9JHOKoDbsjwxAL3NmwcPHqiXBZDzyZMnUgV1t7a2tKJgd3dXqkju0NuMKWfI0FjrCv79739rxRrM0TqS
+        M/Q2Y5ASq44FSJi1wiNYBhFYK0jO0NtcqcmQfcrZMl85MAC9zZJyhry/v691z54dF2ihKluuNJxkBL3N
+        knKG7PesKL/Hx2zZGPQ2Px4+fKj+FSDwBnebyt7C6pr4TLKD3mZGGwPL3gJkzvqBNcyW84XeZsbu7q5q
+        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
+        n1mSFtBb89Dbczdv3syr+3Ej9NY89Pbcu+++a0laQG/N083bx48f6257nlu3bqH28PDw+vXrsuTJyQnm
+        u2LAwcEBarE2LXu4tTWClX/x3Wsq11ZJOU/WCivQW/MMjbdioEyXvQWb5KyswhogLarwcZ21GXwXlpdp
+        TLT8FCjfl9IKK9Bb8wzyVsKv06/sLSTc29uTOQ4nZ9lbzEctPoLTgc7ajO8twAr9Yg30Nkforc8gb2GO
+        r2XZWxE7CIPim9TqrAL5CCakVmbWUPa2fCKo5O7du1jYQW+zgN769PcWxmL3aaGg7C3+BsETaskyqA00
+        w2Luyha1vpOV+N7iW9xn68Hhf+ONN7B+B73NAnrr09NbCaSBeJXeOlEFCCaylT/e1UMs/8UBXKNza8Gx
+        39ra+tvf/qafKaC3WUBvfXp6C2eglhbWVHqLablqdTOL+tBbORFoYV2UjwN8F4qC+17fc1lz/VXx6enp
+        arWCpby+zRF669PHW5jj/PTZ5C3mS/CEV04t1PreYoHicDxHvYe+twALV26VcHZ25t4ZoLc5Qm99Onsr
+        kdBXzrHJW4D5MkeKwF+JVAXrrPcQlL3dlFpD2u3tbdeU6W2O0Fufzt5il20KgzXeSsj1U2vUOlErFa2U
+        2cf3Vhb2NXaU3xmgtzlCb326eetfZ/pIoKvxFpSLzklM+0o7sFpZcyX4LnzQ0VJaYN5bNPEs/h9KJ+it
+        T5/r24yoHLLcvLcmobc+lr1FmK0cSJXe5gi99THrLY7rptGP6W2O0Fsfm97ioG5tbW0a/Zje5gi99THo
+        LTyskRaY9xZZRqYjttdAb32seQsnIS3+arkK896iTfM5kG26eYsmjv2VLJ988smbb77ZOPoxvc0ReuvT
+        zVtpEMly+/bto6Mj3dbN0Nscobc+Nu9L1UNvc4Te+tBbg96CygdgWUNvfeitTW/tQW996C29zQN660Nv
+        6W0e0Fsfektv84De+tBbg94eF2jBCvTWh94a9BZtms+BbENvz33wwQdoBGa4f//+j3/847feekvLVrhz
+        544esALM0cO5SOgtyRJ6uzg+//xzPfgkW5Al6eFcJEv09unTp3rwSbbcu3dPD+ciWaK3YGdnR48/yZAf
+        /vCHeiCXykK9Ff773/+eWuSTTz754x//qAVzIF3S47dgFu2tVR5YfA5EfOitQeiteeitQeiteeitQeit
+        eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeit
+        eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeit
+        eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQZ48efLw4UMtEIvQW0Ly
+        g94SkhvPnv0fwtFap1o8mCwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;salinityEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="usedRespondersChl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="respondersToolStrip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;isHeadingFixedChb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="pbRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 379</value>
+  </data>
+  <data name="&gt;&gt;isHeadingFixedChb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="salinityEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersChl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="isUseAUX2Chb.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="soundSpeedGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="respondersToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="connectionTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="isRoughDepthChb.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;outputPortResponderAddressCbx.Name" xml:space="preserve">
+    <value>outputPortResponderAddressCbx</value>
+  </data>
+  <data name="&gt;&gt;zmaPortGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainTabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>𝛅, °</value>
+  </data>
+  <data name="aux1PortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 66</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isHeadingFixedChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="isRedPhoneModeChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aux2PortGoup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;dXEdit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dXEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pbRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 91</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="usedRespondersGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 494</value>
+  </data>
+  <data name="isRoughDepthChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 32</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aux2PortNameCbx.Name" xml:space="preserve">
+    <value>aux2PortNameCbx</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersChl.Parent" xml:space="preserve">
+    <value>usedRespondersGroup</value>
+  </data>
+  <data name="&gt;&gt;timingsGroup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="deselectAllBtn.Text" xml:space="preserve">
+    <value>☐</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;outputPortBaudrateCbx.Name" xml:space="preserve">
+    <value>outputPortBaudrateCbx</value>
+  </data>
+  <data name="isRoughDepthChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 29</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 21</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 315</value>
+  </data>
+  <data name="deltaEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="usedRespondersChl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 72</value>
+  </data>
+  <data name="respondersToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 35</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="outputPortGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="aux1PortGoup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 111</value>
+  </data>
+  <data name="&gt;&gt;zmaPortNameCbx.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mainTabControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dataObsoleteThresholdEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="dYEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="usedRespondersGroup.Text" xml:space="preserve">
+    <value>Responders in use</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedLink.Name" xml:space="preserve">
+    <value>soundSpeedLink</value>
+  </data>
+  <data name="isUseOutputPortChb.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="soundSpeedLink.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="cancelBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 44</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="salinityLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aux2PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 66</value>
+  </data>
+  <data name="outputPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 66</value>
+  </data>
+  <data name="okBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
+  </data>
+  <data name="outputPortResponderAddressCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="outputPortGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 266</value>
+  </data>
+  <data name="zmaPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
+  </data>
+  <data name="&gt;&gt;soundSpeedLink.Parent" xml:space="preserve">
+    <value>soundSpeedGroup</value>
+  </data>
+  <data name="&gt;&gt;pbLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;deltaEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deselectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
         RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
         zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
         9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
@@ -2182,347 +2539,140 @@
         AElFTkSuQmCC
 </value>
   </data>
-  <data name="connectionTabPage.Text" xml:space="preserve">
-    <value>CONNECTION</value>
+  <data name="selectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
   </data>
-  <data name="&gt;&gt;isUseAUX1Chb.Name" xml:space="preserve">
-    <value>isUseAUX1Chb</value>
-  </data>
-  <data name="outputPortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="aux1PortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="salinityEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;dataObsoleteThresholdEdit.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="connectionTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;commonTabPage.Parent" xml:space="preserve">
-    <value>mainTabControl</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;outputPortBaudrateCbx.Name" xml:space="preserve">
-    <value>outputPortBaudrateCbx</value>
-  </data>
-  <data name="zmaPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Responder address</value>
-  </data>
-  <data name="dYEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 40</value>
-  </data>
-  <data name="&gt;&gt;aux1PortGoup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="aux1PortGoup.Text" xml:space="preserve">
-    <value>AUX1 Port</value>
-  </data>
-  <data name="mainTabControl.Padding" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Baudrate</value>
-  </data>
-  <data name="&gt;&gt;isRoughDepthChb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataObsoleteThresholdEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 27</value>
-  </data>
-  <data name="&gt;&gt;deltaEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
   </data>
   <data name="isUseVTGAsHeadingSourceChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 24</value>
+    <value>500, 29</value>
   </data>
-  <data name="&gt;&gt;salinityGroup.Name" xml:space="preserve">
-    <value>salinityGroup</value>
+  <data name="dXEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 50</value>
   </data>
-  <data name="&gt;&gt;outputPortResponderAddressCbx.Parent" xml:space="preserve">
-    <value>outputPortGroup</value>
+  <data name="timingsGroup.Text" xml:space="preserve">
+    <value>Timings</value>
   </data>
-  <data name="&gt;&gt;outputPortNameCbx.Parent" xml:space="preserve">
-    <value>outputPortGroup</value>
-  </data>
-  <data name="pbLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="dataObsoleteThresholdEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 16</value>
-  </data>
-  <data name="&gt;&gt;isUseOutputPortChb.Name" xml:space="preserve">
-    <value>isUseOutputPortChb</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>694, 530</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;respondersToolStrip.Name" xml:space="preserve">
-    <value>respondersToolStrip</value>
-  </data>
-  <data name="miscTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 35</value>
-  </data>
-  <data name="commonTabPage.Text" xml:space="preserve">
-    <value>COMMON</value>
-  </data>
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="zmaPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="salinityEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 17</value>
-  </data>
-  <data name="soundSpeedGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 52</value>
-  </data>
-  <data name="soundSpeedLink.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="salinityEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;pbRight.Name" xml:space="preserve">
-    <value>pbRight</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="okBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
-  </data>
-  <data name="isRedPhoneModeChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 55</value>
-  </data>
-  <data name="&gt;&gt;aux1PortBaudrateCbx.Name" xml:space="preserve">
-    <value>aux1PortBaudrateCbx</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;isUseOutputPortChb.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="usedRespondersGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="miscTabPage.Text" xml:space="preserve">
-    <value>MISC.</value>
-  </data>
-  <data name="&gt;&gt;outputPortBaudrateCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;zmaPortBaudrateCbx.Parent" xml:space="preserve">
-    <value>zmaPortGroup</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>outputPortGroup</value>
   </data>
-  <data name="&gt;&gt;mainTabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;commonTabPage.Name" xml:space="preserve">
+    <value>commonTabPage</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 252</value>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="soundSpeedGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;aux1PortGoup.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
   </data>
-  <data name="&gt;&gt;cancelBtn.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;soundSpeedEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="salinityLink.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
   </data>
-  <data name="isRoughDepthChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 26</value>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
   </data>
-  <data name="usedRespondersChl.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="isUseVTGAsHeadingSourceChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;outputPortResponderAddressCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;timingsGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;usedRespondersChl.Parent" xml:space="preserve">
-    <value>usedRespondersGroup</value>
+  <data name="miscTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="&gt;&gt;dataObsoleteThresholdEdit.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;salinityGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="&gt;&gt;salinityEdit.Name" xml:space="preserve">
-    <value>salinityEdit</value>
-  </data>
-  <data name="zmaPortNameCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="dXEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 27</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="deltaEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="selectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 25</value>
-  </data>
-  <data name="outputPortGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;isAutocalculateSoundSpeedChb.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
   </data>
   <data name="&gt;&gt;aux2PortNameCbx.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="isRedPhoneModeChb.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;zmaPortGroup.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="&gt;&gt;aux2PortGoup.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="&gt;&gt;dataObsoleteThresholdEdit.Name" xml:space="preserve">
-    <value>dataObsoleteThresholdEdit</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="connectionTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="timingsGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="maxDistanceEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 27</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Port name</value>
-  </data>
-  <data name="outputPortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="soundSpeedEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 27</value>
-  </data>
-  <data name="isUseOutputPortChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;soundSpeedLink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="respondersToolStrip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 29</value>
-  </data>
-  <data name="salinityGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;salinityLink.Parent" xml:space="preserve">
-    <value>salinityGroup</value>
-  </data>
-  <data name="&gt;&gt;dYEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="aux1PortGoup.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mainTabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;setDefaultsBtn.Name" xml:space="preserve">
-    <value>setDefaultsBtn</value>
-  </data>
-  <data name="&gt;&gt;mainTabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="zmaPortBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="isRedPhoneModeChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 24</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>aux2PortGoup</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="aux1PortGoup.TabIndex" type="System.Int32, mscorlib">
+  <data name="salinityLink.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;zmaPortBaudrateCbx.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 29</value>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
-  <data name="isAutocalculateSoundSpeedChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 24</value>
+  <data name="salinityLink.Text" xml:space="preserve">
+    <value>. . .</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
+  <data name="aux2PortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
   </data>
-  <data name="&gt;&gt;connectionTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="soundSpeedLink.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;deltaEdit.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="outputPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 33</value>
   </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Salinity, PSU</value>
   </data>
-  <data name="&gt;&gt;usedRespondersChl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
+  <data name="&gt;&gt;commonTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;isAutocalculateSoundSpeedChb.Name" xml:space="preserve">
+    <value>isAutocalculateSoundSpeedChb</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Responder address</value>
+  </data>
+  <data name="setDefaultsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 44</value>
+  </data>
+  <data name="&gt;&gt;dXEdit.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="soundSpeedGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 65</value>
+  </data>
+  <data name="&gt;&gt;salinityLink.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 116</value>
+  </data>
+  <data name="mainTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="&gt;&gt;isUseOutputPortChb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="&gt;&gt;salinityLink.Name" xml:space="preserve">
+    <value>salinityLink</value>
+  </data>
+  <data name="isRedPhoneModeChb.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

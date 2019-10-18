@@ -59,6 +59,7 @@
             this.zmaPortNameCbx = new System.Windows.Forms.ComboBox();
             this.commonTabPage = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.isHeadingFixedChb = new System.Windows.Forms.CheckBox();
             this.isRedPhoneModeChb = new System.Windows.Forms.CheckBox();
             this.isRoughDepthChb = new System.Windows.Forms.CheckBox();
             this.soundSpeedGroup = new System.Windows.Forms.GroupBox();
@@ -338,10 +339,17 @@
             // groupBox2
             // 
             resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Controls.Add(this.isHeadingFixedChb);
             this.groupBox2.Controls.Add(this.isRedPhoneModeChb);
             this.groupBox2.Controls.Add(this.isRoughDepthChb);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            // 
+            // isHeadingFixedChb
+            // 
+            resources.ApplyResources(this.isHeadingFixedChb, "isHeadingFixedChb");
+            this.isHeadingFixedChb.Name = "isHeadingFixedChb";
+            this.isHeadingFixedChb.UseVisualStyleBackColor = true;
             // 
             // isRedPhoneModeChb
             // 
@@ -788,5 +796,6 @@
         private System.Windows.Forms.Button setDefaultsBtn;
         private System.Windows.Forms.PictureBox pbLeft;
         private System.Windows.Forms.PictureBox pbRight;
+        private System.Windows.Forms.CheckBox isHeadingFixedChb;
     }
 }
