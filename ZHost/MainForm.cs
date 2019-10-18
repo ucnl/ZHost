@@ -129,7 +129,6 @@ namespace ZHost
                 System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None),
                 settingsProvider.Data.IsRedPhoneCompatibilityMode);
             
-
             zcore.LogEventHandler += (o, e) => logger.Write(string.Format("{0}: {1}", e.EventType, e.LogString));
             zcore.ZPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, zmaStateLbl, string.Format("ZMA: {0}", zcore.ZPortState));
 
@@ -191,6 +190,15 @@ namespace ZHost
             zcore.RemoteActionProgessEventHandler += (o, e) => InvokeSetText(mainStatusStrip, remoteActionLbl, e.Value);
             zcore.On1PPSEventHandler += new EventHandler(zcore_On1PPSEventHandler);
 
+            zcore.IsRoughDepth = settingsProvider.Data.IsCoarseDepth;
+            zcore.MaxDistance_m = settingsProvider.Data.MaxDistance_m;
+            zcore.StationAdjustAngle = settingsProvider.Data.AntennaAdjustAngle;
+            zcore.StationOffsetX = settingsProvider.Data.AntennaDx;
+            zcore.StationOffsetY = settingsProvider.Data.AntennaDy;
+            zcore.WaterSalinity_PSU = settingsProvider.Data.Salinity_PSU;
+            zcore.IsUseVTGAsHeadingSource = settingsProvider.Data.IsUseVTGAsHeadingSource;
+            zcore.IsHeadingFixed = settingsProvider.Data.IsHeadingFixed;
+                        
             OnZCoreRunningStatedChanged(false);
 
             foreach (var item in settingsProvider.Data.RespondersInUseAddresses)

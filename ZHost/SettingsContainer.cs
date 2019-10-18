@@ -46,6 +46,9 @@ namespace ZHost
 
         public bool IsUseVTGAsHeadingSource;
 
+        /// Added on 18-OCT-2019, feature request by Anwar
+        public bool IsHeadingFixed;        
+
         #endregion
         
         #region Methods
@@ -84,6 +87,9 @@ namespace ZHost
             AntennaDx = 0.0;
             AntennaAdjustAngle = 0.0;
             IsUseVTGAsHeadingSource = false;
+
+            /// Added on 18-OCT-2019, feature request by Anwar
+            IsHeadingFixed = false;            
         }
 
         public override string ToString()
