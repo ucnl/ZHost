@@ -406,6 +406,8 @@ namespace ZHost.CustomUI
 
         #endregion
 
+        #region Handlers
+
         private void zmaPortNameCbx_SelectedIndexChanged(object sender, EventArgs e)
         {
             CheckSettingsValidity();
@@ -509,6 +511,8 @@ namespace ZHost.CustomUI
             chb.ItemCheck += usedRespondersChl_ItemCheck;
 
             CheckSettingsValidity();
-        }             
+        }
+
+        #endregion
     }
 }
