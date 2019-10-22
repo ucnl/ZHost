@@ -170,10 +170,13 @@ namespace ZHost
                 catch (Exception ex)
                 {
                     ProcessException(ex, true);
-                }                
+                }
 
-                outputPortLogger = new TSLogProvider(StrUtils.GetTimeDirTreeFileName(startTime, Application.ExecutablePath, "LOG", "olog", true));
-                zcore.WrittenToOutputPortEventHandler += (o, e) => outputPortLogger.Write(e.Value);
+                if (settingsProvider.Data.IsOutputSave)
+                {
+                    outputPortLogger = new TSLogProvider(StrUtils.GetTimeDirTreeFileName(startTime, Application.ExecutablePath, "LOG", "olog", true));
+                    zcore.WrittenToOutputPortEventHandler += (o, e) => outputPortLogger.Write(e.Value);
+                }
             }
 
             zcore.StationUpdatedEventHandler += new EventHandler(zcore_StationUpdatedEventHandler);
@@ -198,6 +201,9 @@ namespace ZHost
             zcore.WaterSalinity_PSU = settingsProvider.Data.Salinity_PSU;
             zcore.IsUseVTGAsHeadingSource = settingsProvider.Data.IsUseVTGAsHeadingSource;
             zcore.IsHeadingFixed = settingsProvider.Data.IsHeadingFixed;
+
+            if (!settingsProvider.Data.IsAutoSoundSpeed)
+                zcore.SpeedOfSound = settingsProvider.Data.SoundSpeed;
                         
             OnZCoreRunningStatedChanged(false);
 
