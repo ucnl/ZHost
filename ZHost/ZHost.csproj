@@ -81,11 +81,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LocStringResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="CustomUI\LocStringResources.ru-RU.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LocStringResources.ru-RU.resx</DependentUpon>
-    </Compile>
     <Compile Include="CustomUI\UIUtils.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
