@@ -149,6 +149,8 @@ namespace ZHost
                     auxPortsSettings.Add(new SerialPortSettings(settingsProvider.Data.AUX2PortName, settingsProvider.Data.AUX2PortBaudrate,
                         System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None));
 
+                zcore.IsSaveAUXLog = settingsProvider.Data.IsSaveAUXToLog;
+
                 try
                 {
                     zcore.AUXSourcesInit(auxPortsSettings.ToArray());

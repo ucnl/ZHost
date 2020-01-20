@@ -138,6 +138,9 @@
     <EmbeddedResource Include="CustomUI\SettingsEditor.en.resx">
       <DependentUpon>SettingsEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomUI\SettingsEditor.rm-CH.resx">
+      <DependentUpon>SettingsEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\SettingsEditor.ru.resx">
       <DependentUpon>SettingsEditor.cs</DependentUpon>
     </EmbeddedResource>

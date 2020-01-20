@@ -25,7 +25,7 @@ namespace ZHost
 
         public bool IsAUX2;
         public string AUX2PortName;
-        public BaudRate AUX2PortBaudrate;
+        public BaudRate AUX2PortBaudrate;        
 
         public ZAddress[] RespondersInUseAddresses;
 
@@ -47,7 +47,10 @@ namespace ZHost
         public bool IsUseVTGAsHeadingSource;
 
         /// Added on 18-OCT-2019, feature request by Anwar
-        public bool IsHeadingFixed;        
+        public bool IsHeadingFixed;
+
+        /// Added on 18-JAN-2020
+        public bool IsSaveAUXToLog;
 
         #endregion
         
@@ -89,7 +92,10 @@ namespace ZHost
             IsUseVTGAsHeadingSource = false;
 
             /// Added on 18-OCT-2019, feature request by Anwar
-            IsHeadingFixed = false;            
+            IsHeadingFixed = false;
+
+            /// Added on 18-JAN-2020
+            IsSaveAUXToLog = false;
         }
 
         public override string ToString()
