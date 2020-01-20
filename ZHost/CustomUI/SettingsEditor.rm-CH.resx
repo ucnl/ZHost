@@ -117,187 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="connectionTabPage.Text" xml:space="preserve">
-    <value>СОЕДИНЕНИЕ</value>
-  </data>
-  <data name="commonTabPage.Text" xml:space="preserve">
-    <value>ОБЩИЕ</value>
-  </data>
-  <data name="miscTabPage.Text" xml:space="preserve">
-    <value>ДОПОЛНИТЕЛЬНО</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="isSaveAUXToLogChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 373</value>
-  </data>
-  <data name="isSaveAUXToLogChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 29</value>
-  </data>
-  <data name="isSaveAUXToLogChb.Text" xml:space="preserve">
-    <value>Сохранять AUX в журнал</value>
-  </data>
-  <data name="isUseOutputPortChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 197</value>
-  </data>
-  <data name="isUseOutputPortChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>318, 29</value>
-  </data>
-  <data name="isUseOutputPortChb.Text" xml:space="preserve">
-    <value>Использовать выходной порт</value>
-  </data>
-  <data name="outputPortGroup.Text" xml:space="preserve">
-    <value>Выходной порт</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 29</value>
-  </data>
-  <data name="isOutputPortSaveSeparatelyChb.Text" xml:space="preserve">
-    <value>Сохранять журнал отдельно</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Адрес маяка</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 25</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Скорость</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="isUseAUX2Chb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 198</value>
-  </data>
-  <data name="isUseAUX2Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 29</value>
-  </data>
-  <data name="isUseAUX2Chb.Text" xml:space="preserve">
-    <value>Использовать AUX2</value>
-  </data>
-  <data name="aux2PortGoup.Text" xml:space="preserve">
-    <value>Порт AUX2</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 25</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Скорость</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="isUseAUX1Chb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 12</value>
-  </data>
-  <data name="isUseAUX1Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 29</value>
-  </data>
-  <data name="isUseAUX1Chb.Text" xml:space="preserve">
-    <value>Использовать AUX1</value>
-  </data>
-  <data name="aux1PortGoup.Text" xml:space="preserve">
-    <value>Порт AUX1</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 25</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Скорость</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="zmaPortGroup.Text" xml:space="preserve">
-    <value>Порт ZMA</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 25</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Скорость</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Дополнительно</value>
-  </data>
-  <data name="isHeadingFixedChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 29</value>
-  </data>
-  <data name="isHeadingFixedChb.Text" xml:space="preserve">
-    <value>Антенна неподвижна</value>
-  </data>
-  <data name="isRedPhoneModeChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 29</value>
-  </data>
-  <data name="isRedPhoneModeChb.Text" xml:space="preserve">
-    <value>Режим RedPhone</value>
-  </data>
-  <data name="isRoughDepthChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>416, 29</value>
-  </data>
-  <data name="isRoughDepthChb.Text" xml:space="preserve">
-    <value>Менее точная оценка глубины (быстрее)</value>
-  </data>
-  <data name="soundSpeedGroup.Text" xml:space="preserve">
-    <value>Скорость звука</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 25</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Скорость звука, м/с</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 29</value>
-  </data>
-  <data name="isAutocalculateSoundSpeedChb.Text" xml:space="preserve">
-    <value>Авторасчет скорости звука</value>
-  </data>
-  <data name="salinityGroup.Text" xml:space="preserve">
-    <value>Соленость</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 25</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Соленость, PSU</value>
-  </data>
-  <data name="timingsGroup.Text" xml:space="preserve">
-    <value>Временные интервалы</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 25</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Максимальная дистанция, м</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 25</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Порог устаревания данных, сек</value>
-  </data>
-  <data name="usedRespondersGroup.Text" xml:space="preserve">
-    <value>Используемые маяки</value>
-  </data>
   <data name="selectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -313,9 +133,6 @@
         TgDQASA1MVpwzwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="selectAllBtn.ToolTipText" xml:space="preserve">
-    <value>Выбрать все</value>
-  </data>
   <data name="deselectAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -330,9 +147,6 @@
         kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
         TgDQASA1MVpwzwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="deselectAllBtn.ToolTipText" xml:space="preserve">
-    <value>Снять выделение</value>
   </data>
   <data name="pbRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -802,23 +616,5 @@
         eeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQeiteeitQZ48efLw4UMtEIvQW0Ly
         g94SkhvPnv0fwtFap1o8mCwAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 473</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 29</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Text" xml:space="preserve">
-    <value>Использовать VTG как данные курса (не рекомендуется)</value>
-  </data>
-  <data name="cancelBtn.Text" xml:space="preserve">
-    <value>ОТМЕНА</value>
-  </data>
-  <data name="okBtn.Text" xml:space="preserve">
-    <value>ОК</value>
-  </data>
-  <data name="setDefaultsBtn.Text" xml:space="preserve">
-    <value>ВОССТАНОВИТЬ</value>
   </data>
 </root>

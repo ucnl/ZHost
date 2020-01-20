@@ -68,6 +68,7 @@ namespace ZHost.CustomUI
                 result.ZPortBaudrate = zmaBaudRate;
                 result.ZPortName = zmaPortName;
                 result.IsHeadingFixed = isHeadingFixed;
+                result.IsSaveAUXToLog = isSaveAUXToLog;
 
                 return result;
             }
@@ -99,6 +100,7 @@ namespace ZHost.CustomUI
                 zmaBaudRate = value.ZPortBaudrate;
                 zmaPortName = value.ZPortName;
                 isHeadingFixed = value.IsHeadingFixed;
+                isSaveAUXToLog = value.IsSaveAUXToLog;
             }
         }
 
@@ -268,6 +270,12 @@ namespace ZHost.CustomUI
             set { isHeadingFixedChb.Checked = value; }
         }
 
+        bool isSaveAUXToLog
+        {
+            get { return isSaveAUXToLogChb.Checked; }
+            set { isSaveAUXToLogChb.Checked = value; }
+        }
+
         #endregion
 
         #region MISC. Tab
@@ -403,6 +411,12 @@ namespace ZHost.CustomUI
             okBtn.Enabled = result;
         }
 
+        private void CheckAUXSettings()
+        {
+            isSaveAUXToLogChb.Enabled = isUseAUX1 || isUseAUX2;
+            if (!isSaveAUXToLogChb.Enabled)
+                isSaveAUXToLog = false;
+        }
 
         #endregion
 
@@ -427,7 +441,8 @@ namespace ZHost.CustomUI
         private void isUseAUX1Chb_CheckedChanged(object sender, EventArgs e)
         {
             aux1PortGoup.Enabled = isUseAUX1;
-            CheckSettingsValidity();            
+            CheckAUXSettings();
+            CheckSettingsValidity();
         }
 
         private void aux1PortNameCbx_SelectedIndexChanged(object sender, EventArgs e)
@@ -438,7 +453,8 @@ namespace ZHost.CustomUI
         private void isUseAUX2Chb_CheckedChanged(object sender, EventArgs e)
         {
             aux2PortGoup.Enabled = isUseAUX2;
-            CheckSettingsValidity();            
+            CheckAUXSettings();
+            CheckSettingsValidity();
         }
 
         private void aux2PortNameCbx_SelectedIndexChanged(object sender, EventArgs e)

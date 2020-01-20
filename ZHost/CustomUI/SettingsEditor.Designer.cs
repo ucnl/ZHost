@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsEditor));
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.connectionTabPage = new System.Windows.Forms.TabPage();
+            this.isSaveAUXToLogChb = new System.Windows.Forms.CheckBox();
             this.isUseOutputPortChb = new System.Windows.Forms.CheckBox();
             this.outputPortGroup = new System.Windows.Forms.GroupBox();
             this.isOutputPortSaveSeparatelyChb = new System.Windows.Forms.CheckBox();
@@ -132,6 +133,7 @@
             // connectionTabPage
             // 
             resources.ApplyResources(this.connectionTabPage, "connectionTabPage");
+            this.connectionTabPage.Controls.Add(this.isSaveAUXToLogChb);
             this.connectionTabPage.Controls.Add(this.isUseOutputPortChb);
             this.connectionTabPage.Controls.Add(this.outputPortGroup);
             this.connectionTabPage.Controls.Add(this.isUseAUX2Chb);
@@ -141,6 +143,12 @@
             this.connectionTabPage.Controls.Add(this.zmaPortGroup);
             this.connectionTabPage.Name = "connectionTabPage";
             this.connectionTabPage.UseVisualStyleBackColor = true;
+            // 
+            // isSaveAUXToLogChb
+            // 
+            resources.ApplyResources(this.isSaveAUXToLogChb, "isSaveAUXToLogChb");
+            this.isSaveAUXToLogChb.Name = "isSaveAUXToLogChb";
+            this.isSaveAUXToLogChb.UseVisualStyleBackColor = true;
             // 
             // isUseOutputPortChb
             // 
@@ -797,5 +805,6 @@
         private System.Windows.Forms.PictureBox pbLeft;
         private System.Windows.Forms.PictureBox pbRight;
         private System.Windows.Forms.CheckBox isHeadingFixedChb;
+        private System.Windows.Forms.CheckBox isSaveAUXToLogChb;
     }
 }

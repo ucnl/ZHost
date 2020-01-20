@@ -156,6 +156,9 @@
   <data name="mainTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="isSaveAUXToLogChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 372</value>
+  </data>
   <data name="isUseOutputPortChb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -255,6 +258,9 @@
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>aux1PortGoup</value>
   </data>
+  <data name="zmaPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 66</value>
+  </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>outputPortGroup</value>
   </data>
@@ -282,9 +288,6 @@
   <data name="isHeadingFixedChb.Text" xml:space="preserve">
     <value>Antenna heading is fixed</value>
   </data>
-  <data name="isUseAUX2Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
   <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -293,6 +296,9 @@
   </data>
   <data name="aux1PortGoup.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="usedRespondersGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 494</value>
   </data>
   <data name="&gt;&gt;setDefaultsBtn.Name" xml:space="preserve">
     <value>setDefaultsBtn</value>
@@ -433,7 +439,10 @@
     <value>6, 5, 6, 5</value>
   </data>
   <data name="&gt;&gt;zmaPortGroup.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
+  </data>
+  <data name="isSaveAUXToLogChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>SettingsEditor</value>
@@ -483,9 +492,6 @@
   <data name="selectAllBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
-  <data name="&gt;&gt;selectAllBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="salinityEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>424, 20</value>
   </data>
@@ -507,8 +513,8 @@
   <data name="label13.Text" xml:space="preserve">
     <value>Sound speed, m/s</value>
   </data>
-  <data name="salinityGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="isSaveAUXToLogChb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="usedRespondersGroup.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 11</value>
@@ -521,6 +527,9 @@
   </data>
   <data name="&gt;&gt;salinityEdit.Parent" xml:space="preserve">
     <value>salinityGroup</value>
+  </data>
+  <data name="&gt;&gt;isSaveAUXToLogChb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -956,14 +965,14 @@
   <data name="&gt;&gt;okBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;dYEdit.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;selectAllBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="usedRespondersChl.IntegralHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
+  <data name="timingsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;outputPortGroup.Parent" xml:space="preserve">
     <value>connectionTabPage</value>
@@ -1025,6 +1034,9 @@
   <data name="outputPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 5, 6, 5</value>
   </data>
+  <data name="salinityGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="&gt;&gt;usedRespondersGroup.Name" xml:space="preserve">
     <value>usedRespondersGroup</value>
   </data>
@@ -1053,7 +1065,7 @@
     <value>6, 5, 6, 5</value>
   </data>
   <data name="&gt;&gt;aux2PortGoup.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 29</value>
@@ -1066,6 +1078,9 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SettingsEditor</value>
+  </data>
+  <data name="isSaveAUXToLogChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
   <data name="aux1PortGoup.Location" type="System.Drawing.Point, System.Drawing">
     <value>465, 51</value>
@@ -1087,6 +1102,9 @@
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="salinityGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
   <data name="outputPortGroup.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1160,6 +1178,9 @@
   <data name="isRedPhoneModeChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="&gt;&gt;isSaveAUXToLogChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Baudrate</value>
   </data>
@@ -1196,8 +1217,8 @@
   <data name="&gt;&gt;isRedPhoneModeChb.Name" xml:space="preserve">
     <value>isRedPhoneModeChb</value>
   </data>
-  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;salinityLink.Name" xml:space="preserve">
+    <value>salinityLink</value>
   </data>
   <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
     <value>commonTabPage</value>
@@ -1241,6 +1262,9 @@
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 111</value>
   </data>
+  <data name="isSaveAUXToLogChb.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;miscTabPage.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1259,14 +1283,14 @@
   <data name="respondersToolStrip.Text" xml:space="preserve">
     <value>toolStrip1</value>
   </data>
+  <data name="isSaveAUXToLogChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
   <data name="zmaPortGroup.Size" type="System.Drawing.Size, System.Drawing">
     <value>421, 111</value>
   </data>
-  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="isUseAUX2Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>salinityGroup</value>
   </data>
   <data name="isRoughDepthChb.Text" xml:space="preserve">
     <value>Rough depth (faster)</value>
@@ -1409,6 +1433,9 @@
   <data name="isUseVTGAsHeadingSourceChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="&gt;&gt;isUseOutputPortChb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
   <data name="soundSpeedEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -1429,6 +1456,9 @@
   </data>
   <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 478</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
   </data>
   <data name="isHeadingFixedChb.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 106</value>
@@ -1453,6 +1483,9 @@
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 25</value>
+  </data>
+  <data name="isSaveAUXToLogChb.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>outputPortGroup</value>
@@ -1490,6 +1523,9 @@
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>soundSpeedGroup</value>
   </data>
+  <data name="&gt;&gt;isSaveAUXToLogChb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="zmaPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 5, 6, 5</value>
   </data>
@@ -1504,6 +1540,9 @@
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isSaveAUXToLogChb.Text" xml:space="preserve">
+    <value>Save AUX input to log</value>
   </data>
   <data name="&gt;&gt;isRedPhoneModeChb.Parent" xml:space="preserve">
     <value>groupBox2</value>
@@ -1529,8 +1568,8 @@
   <data name="&gt;&gt;isUseAUX1Chb.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="salinityGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+  <data name="selectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
   </data>
   <data name="outputPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 33</value>
@@ -1542,7 +1581,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;isUseAUX2Chb.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1558,6 +1597,9 @@
   </data>
   <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Name" xml:space="preserve">
     <value>isUseVTGAsHeadingSourceChb</value>
+  </data>
+  <data name="isSaveAUXToLogChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1610,9 +1652,6 @@
   <data name="&gt;&gt;dataObsoleteThresholdEdit.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="selectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 32</value>
-  </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1652,6 +1691,9 @@
   <data name="&gt;&gt;isUseAUX1Chb.Parent" xml:space="preserve">
     <value>connectionTabPage</value>
   </data>
+  <data name="isHeadingFixedChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
@@ -1663,6 +1705,9 @@
   </data>
   <data name="&gt;&gt;timingsGroup.Parent" xml:space="preserve">
     <value>commonTabPage</value>
+  </data>
+  <data name="isSaveAUXToLogChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 29</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 25</value>
@@ -1676,14 +1721,14 @@
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="timingsGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 25</value>
   </data>
   <data name="selectAllBtn.ToolTipText" xml:space="preserve">
     <value>Select all</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="usedRespondersGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
@@ -1697,8 +1742,8 @@
   <data name="&gt;&gt;isAutocalculateSoundSpeedChb.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>salinityGroup</value>
+  <data name="&gt;&gt;dYEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="aux1PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 66</value>
@@ -1708,9 +1753,6 @@
   </data>
   <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="soundSpeedGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="deselectAllBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 32</value>
@@ -1749,7 +1791,7 @@
     <value>isUseAUX2Chb</value>
   </data>
   <data name="&gt;&gt;outputPortGroup.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>799, 600</value>
@@ -1781,6 +1823,9 @@
   <data name="&gt;&gt;aux1PortBaudrateCbx.Parent" xml:space="preserve">
     <value>aux1PortGoup</value>
   </data>
+  <data name="&gt;&gt;isSaveAUXToLogChb.Name" xml:space="preserve">
+    <value>isSaveAUXToLogChb</value>
+  </data>
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>aux2PortGoup</value>
   </data>
@@ -1806,7 +1851,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;isUseOutputPortChb.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1834,9 +1879,6 @@
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 25</value>
-  </data>
-  <data name="&gt;&gt;salinityGroup.Parent" xml:space="preserve">
-    <value>commonTabPage</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>aux2PortGoup</value>
@@ -1934,8 +1976,8 @@
   <data name="&gt;&gt;aux2PortGoup.Name" xml:space="preserve">
     <value>aux2PortGoup</value>
   </data>
-  <data name="&gt;&gt;usedRespondersChl.Name" xml:space="preserve">
-    <value>usedRespondersChl</value>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
   </data>
   <data name="outputPortResponderAddressCbx.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 146</value>
@@ -1967,8 +2009,8 @@
   <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="isHeadingFixedChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="&gt;&gt;salinityGroup.Parent" xml:space="preserve">
+    <value>commonTabPage</value>
   </data>
   <data name="deltaEdit.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
@@ -1977,7 +2019,7 @@
     <value>outputPortNameCbx</value>
   </data>
   <data name="&gt;&gt;isUseAUX1Chb.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="maxDistanceEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 32</value>
@@ -1993,6 +2035,9 @@
   </data>
   <data name="salinityGroup.Size" type="System.Drawing.Size, System.Drawing">
     <value>597, 66</value>
+  </data>
+  <data name="&gt;&gt;usedRespondersChl.Name" xml:space="preserve">
+    <value>usedRespondersChl</value>
   </data>
   <data name="&gt;&gt;selectAllBtn.Name" xml:space="preserve">
     <value>selectAllBtn</value>
@@ -2013,7 +2058,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;aux1PortGoup.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2081,8 +2126,8 @@
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>597, 84</value>
   </data>
-  <data name="zmaPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 66</value>
+  <data name="isUseAUX2Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -2389,8 +2434,8 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="usedRespondersGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 494</value>
+  <data name="isUseAUX2Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
   <data name="isRoughDepthChb.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 32</value>
@@ -2494,9 +2539,6 @@
   <data name="aux2PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 66</value>
   </data>
-  <data name="outputPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 66</value>
-  </data>
   <data name="okBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
   </data>
@@ -2512,8 +2554,8 @@
   <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 64</value>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
   </data>
   <data name="&gt;&gt;soundSpeedLink.Parent" xml:space="preserve">
     <value>soundSpeedGroup</value>
@@ -2587,8 +2629,11 @@
   <data name="&gt;&gt;label16.Parent" xml:space="preserve">
     <value>miscTabPage</value>
   </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 29</value>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="soundSpeedGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="isUseVTGAsHeadingSourceChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2665,11 +2710,8 @@
   <data name="mainTabControl.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 24</value>
   </data>
-  <data name="&gt;&gt;isUseOutputPortChb.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="&gt;&gt;salinityLink.Name" xml:space="preserve">
-    <value>salinityLink</value>
+  <data name="outputPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 66</value>
   </data>
   <data name="isRedPhoneModeChb.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
