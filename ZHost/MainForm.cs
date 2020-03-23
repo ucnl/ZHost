@@ -111,7 +111,7 @@ namespace ZHost
                 ProcessException(ex, true);
             }
 
-            logger.Write("Settings:");
+            logger.Write("Current application settings:");
             logger.Write(settingsProvider.Data.ToString());
 
             #endregion            
