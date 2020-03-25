@@ -3,7 +3,7 @@ Zima USBL Host application
 
 ### RUS
 
-Для того, чтобы скачать самый свежий релиз, используйте кнопку 'releases' или прямую ссылку: [Latest ZHost release](https://github.com/ucnl/ZHost/releases/download/1.0/ZHost.zip)  
+Для того, чтобы скачать самый свежий релиз, используйте кнопку 'releases' или прямую ссылку: [Latest ZHost release](https://github.com/ucnl/ZHost/releases/download/1.2/ZHost.zip)  
   
 Для того, чтобы собрать проект, вам потребуются библиотеки:  
   
@@ -19,7 +19,7 @@ Zima USBL Host application
   
 ### ENG  
   
-To downloal the latest release, please use release button or direct link: [Latest ZHost release](https://github.com/ucnl/ZHost/releases/download/1.0/ZHost.zip)  
+To downloal the latest release, please use release button or direct link: [Latest ZHost release](https://github.com/ucnl/ZHost/releases/download/1.2/ZHost.zip)  
   
 To build this solution you also need following libraries:  
   
