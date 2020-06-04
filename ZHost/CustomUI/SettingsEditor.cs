@@ -55,7 +55,6 @@ namespace ZHost.CustomUI
                 result.IsAUX2 = isUseAUX2;
                 result.IsCoarseDepth = isRoughDepth;
                 result.IsOutputSave = isOutputPortSaveSeparately;
-                result.IsRedPhoneCompatibilityMode = isRedPhoneMode;
                 result.IsUseOutputPort = isUseOutputPort;
                 result.IsUseVTGAsHeadingSource = isUseVTGAsHeadingSource;
                 result.MaxDistance_m = maxDistance;
@@ -87,7 +86,6 @@ namespace ZHost.CustomUI
                 isUseAUX2 = value.IsAUX2;
                 isRoughDepth = value.IsCoarseDepth;
                 isOutputPortSaveSeparately = value.IsOutputSave;
-                isRedPhoneMode = value.IsRedPhoneCompatibilityMode;
                 isUseOutputPort = value.IsUseOutputPort;
                 isUseVTGAsHeadingSource = value.IsUseVTGAsHeadingSource;
                 maxDistance = value.MaxDistance_m;
@@ -249,14 +247,7 @@ namespace ZHost.CustomUI
         {
             get { return Convert.ToDouble(soundSpeedEdit.Value); }
             set { UIUtils.TrySetNEditValue(soundSpeedEdit, value); }
-        }
-
-
-        bool isRedPhoneMode
-        {
-            get { return isRedPhoneModeChb.Checked; }
-            set { isRedPhoneModeChb.Checked = value; }
-        }
+        }       
 
         bool isRoughDepth
         {

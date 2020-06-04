@@ -61,7 +61,6 @@
             this.commonTabPage = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.isHeadingFixedChb = new System.Windows.Forms.CheckBox();
-            this.isRedPhoneModeChb = new System.Windows.Forms.CheckBox();
             this.isRoughDepthChb = new System.Windows.Forms.CheckBox();
             this.soundSpeedGroup = new System.Windows.Forms.GroupBox();
             this.soundSpeedLink = new System.Windows.Forms.LinkLabel();
@@ -132,7 +131,6 @@
             // 
             // connectionTabPage
             // 
-            resources.ApplyResources(this.connectionTabPage, "connectionTabPage");
             this.connectionTabPage.Controls.Add(this.isSaveAUXToLogChb);
             this.connectionTabPage.Controls.Add(this.isUseOutputPortChb);
             this.connectionTabPage.Controls.Add(this.outputPortGroup);
@@ -141,6 +139,7 @@
             this.connectionTabPage.Controls.Add(this.isUseAUX1Chb);
             this.connectionTabPage.Controls.Add(this.aux1PortGoup);
             this.connectionTabPage.Controls.Add(this.zmaPortGroup);
+            resources.ApplyResources(this.connectionTabPage, "connectionTabPage");
             this.connectionTabPage.Name = "connectionTabPage";
             this.connectionTabPage.UseVisualStyleBackColor = true;
             // 
@@ -183,8 +182,8 @@
             // 
             // outputPortResponderAddressCbx
             // 
-            resources.ApplyResources(this.outputPortResponderAddressCbx, "outputPortResponderAddressCbx");
             this.outputPortResponderAddressCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.outputPortResponderAddressCbx, "outputPortResponderAddressCbx");
             this.outputPortResponderAddressCbx.FormattingEnabled = true;
             this.outputPortResponderAddressCbx.Name = "outputPortResponderAddressCbx";
             // 
@@ -200,15 +199,15 @@
             // 
             // outputPortBaudrateCbx
             // 
-            resources.ApplyResources(this.outputPortBaudrateCbx, "outputPortBaudrateCbx");
             this.outputPortBaudrateCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.outputPortBaudrateCbx, "outputPortBaudrateCbx");
             this.outputPortBaudrateCbx.FormattingEnabled = true;
             this.outputPortBaudrateCbx.Name = "outputPortBaudrateCbx";
             // 
             // outputPortNameCbx
             // 
-            resources.ApplyResources(this.outputPortNameCbx, "outputPortNameCbx");
             this.outputPortNameCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.outputPortNameCbx, "outputPortNameCbx");
             this.outputPortNameCbx.FormattingEnabled = true;
             this.outputPortNameCbx.Name = "outputPortNameCbx";
             this.outputPortNameCbx.SelectedIndexChanged += new System.EventHandler(this.outputPortNameCbx_SelectedIndexChanged);
@@ -242,15 +241,15 @@
             // 
             // aux2PortBaudrateCbx
             // 
-            resources.ApplyResources(this.aux2PortBaudrateCbx, "aux2PortBaudrateCbx");
             this.aux2PortBaudrateCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.aux2PortBaudrateCbx, "aux2PortBaudrateCbx");
             this.aux2PortBaudrateCbx.FormattingEnabled = true;
             this.aux2PortBaudrateCbx.Name = "aux2PortBaudrateCbx";
             // 
             // aux2PortNameCbx
             // 
-            resources.ApplyResources(this.aux2PortNameCbx, "aux2PortNameCbx");
             this.aux2PortNameCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.aux2PortNameCbx, "aux2PortNameCbx");
             this.aux2PortNameCbx.FormattingEnabled = true;
             this.aux2PortNameCbx.Name = "aux2PortNameCbx";
             this.aux2PortNameCbx.SelectedIndexChanged += new System.EventHandler(this.aux2PortNameCbx_SelectedIndexChanged);
@@ -284,26 +283,26 @@
             // 
             // aux1PortBaudrateCbx
             // 
-            resources.ApplyResources(this.aux1PortBaudrateCbx, "aux1PortBaudrateCbx");
             this.aux1PortBaudrateCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.aux1PortBaudrateCbx, "aux1PortBaudrateCbx");
             this.aux1PortBaudrateCbx.FormattingEnabled = true;
             this.aux1PortBaudrateCbx.Name = "aux1PortBaudrateCbx";
             // 
             // aux1PortNameCbx
             // 
-            resources.ApplyResources(this.aux1PortNameCbx, "aux1PortNameCbx");
             this.aux1PortNameCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.aux1PortNameCbx, "aux1PortNameCbx");
             this.aux1PortNameCbx.FormattingEnabled = true;
             this.aux1PortNameCbx.Name = "aux1PortNameCbx";
             this.aux1PortNameCbx.SelectedIndexChanged += new System.EventHandler(this.aux1PortNameCbx_SelectedIndexChanged);
             // 
             // zmaPortGroup
             // 
-            resources.ApplyResources(this.zmaPortGroup, "zmaPortGroup");
             this.zmaPortGroup.Controls.Add(this.label2);
             this.zmaPortGroup.Controls.Add(this.label1);
             this.zmaPortGroup.Controls.Add(this.zmaPortBaudrateCbx);
             this.zmaPortGroup.Controls.Add(this.zmaPortNameCbx);
+            resources.ApplyResources(this.zmaPortGroup, "zmaPortGroup");
             this.zmaPortGroup.Name = "zmaPortGroup";
             this.zmaPortGroup.TabStop = false;
             // 
@@ -319,28 +318,28 @@
             // 
             // zmaPortBaudrateCbx
             // 
-            resources.ApplyResources(this.zmaPortBaudrateCbx, "zmaPortBaudrateCbx");
             this.zmaPortBaudrateCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.zmaPortBaudrateCbx, "zmaPortBaudrateCbx");
             this.zmaPortBaudrateCbx.FormattingEnabled = true;
             this.zmaPortBaudrateCbx.Name = "zmaPortBaudrateCbx";
             // 
             // zmaPortNameCbx
             // 
-            resources.ApplyResources(this.zmaPortNameCbx, "zmaPortNameCbx");
             this.zmaPortNameCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.zmaPortNameCbx, "zmaPortNameCbx");
             this.zmaPortNameCbx.FormattingEnabled = true;
             this.zmaPortNameCbx.Name = "zmaPortNameCbx";
             this.zmaPortNameCbx.SelectedIndexChanged += new System.EventHandler(this.zmaPortNameCbx_SelectedIndexChanged);
             // 
             // commonTabPage
             // 
-            resources.ApplyResources(this.commonTabPage, "commonTabPage");
             this.commonTabPage.Controls.Add(this.groupBox2);
             this.commonTabPage.Controls.Add(this.soundSpeedGroup);
             this.commonTabPage.Controls.Add(this.isAutocalculateSoundSpeedChb);
             this.commonTabPage.Controls.Add(this.salinityGroup);
             this.commonTabPage.Controls.Add(this.timingsGroup);
             this.commonTabPage.Controls.Add(this.usedRespondersGroup);
+            resources.ApplyResources(this.commonTabPage, "commonTabPage");
             this.commonTabPage.Name = "commonTabPage";
             this.commonTabPage.UseVisualStyleBackColor = true;
             // 
@@ -348,7 +347,6 @@
             // 
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.isHeadingFixedChb);
-            this.groupBox2.Controls.Add(this.isRedPhoneModeChb);
             this.groupBox2.Controls.Add(this.isRoughDepthChb);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
@@ -358,12 +356,6 @@
             resources.ApplyResources(this.isHeadingFixedChb, "isHeadingFixedChb");
             this.isHeadingFixedChb.Name = "isHeadingFixedChb";
             this.isHeadingFixedChb.UseVisualStyleBackColor = true;
-            // 
-            // isRedPhoneModeChb
-            // 
-            resources.ApplyResources(this.isRedPhoneModeChb, "isRedPhoneModeChb");
-            this.isRedPhoneModeChb.Name = "isRedPhoneModeChb";
-            this.isRedPhoneModeChb.UseVisualStyleBackColor = true;
             // 
             // isRoughDepthChb
             // 
@@ -383,8 +375,8 @@
             // 
             // soundSpeedLink
             // 
-            resources.ApplyResources(this.soundSpeedLink, "soundSpeedLink");
             this.soundSpeedLink.ActiveLinkColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.soundSpeedLink, "soundSpeedLink");
             this.soundSpeedLink.LinkColor = System.Drawing.Color.Black;
             this.soundSpeedLink.Name = "soundSpeedLink";
             this.soundSpeedLink.TabStop = true;
@@ -442,8 +434,8 @@
             // 
             // salinityLink
             // 
-            resources.ApplyResources(this.salinityLink, "salinityLink");
             this.salinityLink.ActiveLinkColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.salinityLink, "salinityLink");
             this.salinityLink.LinkColor = System.Drawing.Color.Black;
             this.salinityLink.Name = "salinityLink";
             this.salinityLink.TabStop = true;
@@ -553,15 +545,15 @@
             // 
             // selectAllBtn
             // 
-            resources.ApplyResources(this.selectAllBtn, "selectAllBtn");
             this.selectAllBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.selectAllBtn, "selectAllBtn");
             this.selectAllBtn.Name = "selectAllBtn";
             this.selectAllBtn.Click += new System.EventHandler(this.selectAllBtn_Click);
             // 
             // deselectAllBtn
             // 
-            resources.ApplyResources(this.deselectAllBtn, "deselectAllBtn");
             this.deselectAllBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.deselectAllBtn, "deselectAllBtn");
             this.deselectAllBtn.Name = "deselectAllBtn";
             this.deselectAllBtn.Click += new System.EventHandler(this.deselectAllBtn_Click);
             // 
@@ -575,7 +567,6 @@
             // 
             // miscTabPage
             // 
-            resources.ApplyResources(this.miscTabPage, "miscTabPage");
             this.miscTabPage.Controls.Add(this.pbRight);
             this.miscTabPage.Controls.Add(this.pbLeft);
             this.miscTabPage.Controls.Add(this.isUseVTGAsHeadingSourceChb);
@@ -585,6 +576,7 @@
             this.miscTabPage.Controls.Add(this.label15);
             this.miscTabPage.Controls.Add(this.dYEdit);
             this.miscTabPage.Controls.Add(this.label14);
+            resources.ApplyResources(this.miscTabPage, "miscTabPage");
             this.miscTabPage.Name = "miscTabPage";
             this.miscTabPage.UseVisualStyleBackColor = true;
             // 
@@ -624,8 +616,8 @@
             // 
             // dXEdit
             // 
-            resources.ApplyResources(this.dXEdit, "dXEdit");
             this.dXEdit.DecimalPlaces = 3;
+            resources.ApplyResources(this.dXEdit, "dXEdit");
             this.dXEdit.Maximum = new decimal(new int[] {
             999,
             0,
@@ -645,8 +637,8 @@
             // 
             // dYEdit
             // 
-            resources.ApplyResources(this.dYEdit, "dYEdit");
             this.dYEdit.DecimalPlaces = 3;
+            resources.ApplyResources(this.dYEdit, "dYEdit");
             this.dYEdit.Maximum = new decimal(new int[] {
             999,
             0,
@@ -775,7 +767,6 @@
         private System.Windows.Forms.CheckedListBox usedRespondersChl;
         private System.Windows.Forms.GroupBox timingsGroup;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox isRedPhoneModeChb;
         private System.Windows.Forms.CheckBox isRoughDepthChb;
         private System.Windows.Forms.GroupBox soundSpeedGroup;
         private System.Windows.Forms.NumericUpDown soundSpeedEdit;
