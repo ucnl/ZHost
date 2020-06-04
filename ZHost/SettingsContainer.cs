@@ -37,7 +37,6 @@ namespace ZHost
         public bool IsAutoSoundSpeed;
         public double SoundSpeed;
 
-        public bool IsRedPhoneCompatibilityMode;
         public bool IsCoarseDepth;
 
         public double AntennaDy;
@@ -83,7 +82,6 @@ namespace ZHost
             IsAutoSoundSpeed = true;
             SoundSpeed = 1500;
 
-            IsRedPhoneCompatibilityMode = false;
             IsCoarseDepth = true;
 
             AntennaDy = 0.0;

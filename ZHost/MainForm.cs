@@ -126,8 +126,7 @@ namespace ZHost
             #region zcore
 
             zcore = new ZCore(new SerialPortSettings(settingsProvider.Data.ZPortName, settingsProvider.Data.ZPortBaudrate,
-                System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None),
-                settingsProvider.Data.IsRedPhoneCompatibilityMode);
+                System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None));
             
             zcore.LogEventHandler += (o, e) => logger.Write(string.Format("{0}: {1}", e.EventType, e.LogString));
             zcore.ZPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, zmaStateLbl, string.Format("ZMA: {0}", zcore.ZPortState));

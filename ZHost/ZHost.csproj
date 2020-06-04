@@ -38,17 +38,20 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UCNLDrivers">
+    <Reference Include="UCNLDrivers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\UCNLLibs\UCNLDrivers\UCNLDrivers\bin\Release\UCNLDrivers.dll</HintPath>
     </Reference>
-    <Reference Include="UCNLKML">
+    <Reference Include="UCNLKML, Version=1.0.7160.21192, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\UCNLLibs\UCNLKML\UCNLKML\bin\Release\UCNLKML.dll</HintPath>
     </Reference>
-    <Reference Include="UCNLNav, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="UCNLNav, Version=1.0.7275.21559, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\UCNLLibs\UCNLNav\UCNLNav\bin\Release\UCNLNav.dll</HintPath>
     </Reference>
-    <Reference Include="UCNLUI">
+    <Reference Include="UCNLUI, Version=1.0.7170.26920, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\UCNLLibs\UCNLUI\UCNLUI\bin\Release\UCNLUI.dll</HintPath>
     </Reference>
     <Reference Include="ZLibrary, Version=1.0.7159.2145, Culture=neutral, processorArchitecture=MSIL">
@@ -131,9 +134,6 @@
       <LastGenOutput>LocStringResources.ru-RU.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\SettingsEditor.en.resx">
-      <DependentUpon>SettingsEditor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomUI\SettingsEditor.rm-CH.resx">
       <DependentUpon>SettingsEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\SettingsEditor.ru.resx">
