@@ -14,7 +14,7 @@ Zima USBL Host application
 * [UCNLSalinity](https://github.com/ucnl/UCNLSalinity)
 * [UCNLUI](https://github.com/ucnl/UCNLUI)
   
-Более подробно работа с приложением ZimaHost описана в [инструкции по эксплуатации системы](https://github.com/ucnl/Docs/blob/master/RU/Zima/ZIMA_Users_manual_ru.pdf)  
+Более подробно работа с приложением ZimaHost описана в [инструкции по эксплуатации системы](https://docs.unavlab.com/documentation/RU/Zima/Zima_Users_manual_ru.html)  
   
   
 ### ENG  
@@ -30,6 +30,6 @@ To build this solution you also need following libraries:
 * [UCNLSalinity](https://github.com/ucnl/UCNLSalinity)
 * [UCNLUI](https://github.com/ucnl/UCNLUI) 
 
-For more information about usage of the application refer to [User's manual](https://github.com/ucnl/Docs/blob/master/EN/Zima/ZIMA_USBL_Deployment_maintenance_en.pdf)  
+For more information about usage of the application refer to [User's manual](https://docs.unavlab.com/documentation/EN/Zima/Zima_Users_manual_en.html)  
   
   
