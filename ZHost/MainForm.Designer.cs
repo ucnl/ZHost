@@ -35,6 +35,8 @@
             this.stationMenuBtn = new System.Windows.Forms.ToolStripDropDownButton();
             this.stationViewInfoBtn = new System.Windows.Forms.ToolStripMenuItem();
             this.stationZeroDepthAdjustmentBtn = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.stationAngularCalibrationBtn = new System.Windows.Forms.ToolStripMenuItem();
             this.responderMenuBtn = new System.Windows.Forms.ToolStripDropDownButton();
             this.responderRemoteCommandSendBtn = new System.Windows.Forms.ToolStripMenuItem();
             this.responderChangeAddressBtn = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,6 +67,7 @@
             this.gnssStateLbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.outPortStateLbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.remoteActionLbl = new System.Windows.Forms.ToolStripStatusLabel();
+            this.calPortStateLbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.ppiViewGroup = new System.Windows.Forms.GroupBox();
             this.ppiView = new ZHost.ppiView();
             this.ppiToolStrip = new System.Windows.Forms.ToolStrip();
@@ -98,73 +101,85 @@
             // 
             // connectionBtn
             // 
-            resources.ApplyResources(this.connectionBtn, "connectionBtn");
             this.connectionBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.connectionBtn, "connectionBtn");
             this.connectionBtn.Name = "connectionBtn";
             this.connectionBtn.Click += new System.EventHandler(this.connectionBtn_Click);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // stationMenuBtn
             // 
-            resources.ApplyResources(this.stationMenuBtn, "stationMenuBtn");
             this.stationMenuBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.stationMenuBtn.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stationViewInfoBtn,
-            this.stationZeroDepthAdjustmentBtn});
+            this.stationZeroDepthAdjustmentBtn,
+            this.toolStripSeparator8,
+            this.stationAngularCalibrationBtn});
+            resources.ApplyResources(this.stationMenuBtn, "stationMenuBtn");
             this.stationMenuBtn.Name = "stationMenuBtn";
             // 
             // stationViewInfoBtn
             // 
-            resources.ApplyResources(this.stationViewInfoBtn, "stationViewInfoBtn");
             this.stationViewInfoBtn.Name = "stationViewInfoBtn";
+            resources.ApplyResources(this.stationViewInfoBtn, "stationViewInfoBtn");
             this.stationViewInfoBtn.Click += new System.EventHandler(this.stationViewInfoBtn_Click);
             // 
             // stationZeroDepthAdjustmentBtn
             // 
-            resources.ApplyResources(this.stationZeroDepthAdjustmentBtn, "stationZeroDepthAdjustmentBtn");
             this.stationZeroDepthAdjustmentBtn.Name = "stationZeroDepthAdjustmentBtn";
+            resources.ApplyResources(this.stationZeroDepthAdjustmentBtn, "stationZeroDepthAdjustmentBtn");
             this.stationZeroDepthAdjustmentBtn.Click += new System.EventHandler(this.stationZeroDepthAdjustmentBtn_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
+            // 
+            // stationAngularCalibrationBtn
+            // 
+            this.stationAngularCalibrationBtn.Name = "stationAngularCalibrationBtn";
+            resources.ApplyResources(this.stationAngularCalibrationBtn, "stationAngularCalibrationBtn");
+            this.stationAngularCalibrationBtn.Click += new System.EventHandler(this.stationAngularCalibrationBtn_Click);
             // 
             // responderMenuBtn
             // 
-            resources.ApplyResources(this.responderMenuBtn, "responderMenuBtn");
             this.responderMenuBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.responderMenuBtn.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.responderRemoteCommandSendBtn,
             this.responderChangeAddressBtn,
             this.responderZeroDepthAdjustBtn});
+            resources.ApplyResources(this.responderMenuBtn, "responderMenuBtn");
             this.responderMenuBtn.Name = "responderMenuBtn";
             // 
             // responderRemoteCommandSendBtn
             // 
-            resources.ApplyResources(this.responderRemoteCommandSendBtn, "responderRemoteCommandSendBtn");
             this.responderRemoteCommandSendBtn.Name = "responderRemoteCommandSendBtn";
+            resources.ApplyResources(this.responderRemoteCommandSendBtn, "responderRemoteCommandSendBtn");
             this.responderRemoteCommandSendBtn.Click += new System.EventHandler(this.responderRemoteCommandSendBtn_Click);
             // 
             // responderChangeAddressBtn
             // 
-            resources.ApplyResources(this.responderChangeAddressBtn, "responderChangeAddressBtn");
             this.responderChangeAddressBtn.Name = "responderChangeAddressBtn";
+            resources.ApplyResources(this.responderChangeAddressBtn, "responderChangeAddressBtn");
             this.responderChangeAddressBtn.Click += new System.EventHandler(this.responderChangeAddressBtn_Click);
             // 
             // responderZeroDepthAdjustBtn
             // 
-            resources.ApplyResources(this.responderZeroDepthAdjustBtn, "responderZeroDepthAdjustBtn");
             this.responderZeroDepthAdjustBtn.Name = "responderZeroDepthAdjustBtn";
+            resources.ApplyResources(this.responderZeroDepthAdjustBtn, "responderZeroDepthAdjustBtn");
             this.responderZeroDepthAdjustBtn.Click += new System.EventHandler(this.responderZeroDepthAdjustBtn_Click);
             // 
             // toolStripSeparator2
             // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // logMenuBtn
             // 
-            resources.ApplyResources(this.logMenuBtn, "logMenuBtn");
             this.logMenuBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.logMenuBtn.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logViewBtn,
@@ -174,92 +189,93 @@
             this.toolStripSeparator6,
             this.logRestartCurrentBtn,
             this.logClearBtn});
+            resources.ApplyResources(this.logMenuBtn, "logMenuBtn");
             this.logMenuBtn.Name = "logMenuBtn";
             // 
             // logViewBtn
             // 
-            resources.ApplyResources(this.logViewBtn, "logViewBtn");
             this.logViewBtn.Name = "logViewBtn";
+            resources.ApplyResources(this.logViewBtn, "logViewBtn");
             this.logViewBtn.Click += new System.EventHandler(this.logViewBtn_Click);
             // 
             // toolStripSeparator5
             // 
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             // 
             // logAnalyzeCurrentBtn
             // 
-            resources.ApplyResources(this.logAnalyzeCurrentBtn, "logAnalyzeCurrentBtn");
             this.logAnalyzeCurrentBtn.Name = "logAnalyzeCurrentBtn";
+            resources.ApplyResources(this.logAnalyzeCurrentBtn, "logAnalyzeCurrentBtn");
             this.logAnalyzeCurrentBtn.Click += new System.EventHandler(this.logAnalyzeCurrentBtn_Click);
             // 
             // logAnalyzeBtn
             // 
-            resources.ApplyResources(this.logAnalyzeBtn, "logAnalyzeBtn");
             this.logAnalyzeBtn.Name = "logAnalyzeBtn";
+            resources.ApplyResources(this.logAnalyzeBtn, "logAnalyzeBtn");
             this.logAnalyzeBtn.Click += new System.EventHandler(this.logAnalyzeBtn_Click);
             // 
             // toolStripSeparator6
             // 
-            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             this.toolStripSeparator6.Name = "toolStripSeparator6";
+            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             // 
             // logRestartCurrentBtn
             // 
-            resources.ApplyResources(this.logRestartCurrentBtn, "logRestartCurrentBtn");
             this.logRestartCurrentBtn.Name = "logRestartCurrentBtn";
+            resources.ApplyResources(this.logRestartCurrentBtn, "logRestartCurrentBtn");
             this.logRestartCurrentBtn.Click += new System.EventHandler(this.logRestartCurrentBtn_Click);
             // 
             // logClearBtn
             // 
-            resources.ApplyResources(this.logClearBtn, "logClearBtn");
             this.logClearBtn.Name = "logClearBtn";
+            resources.ApplyResources(this.logClearBtn, "logClearBtn");
             this.logClearBtn.Click += new System.EventHandler(this.logClearBtn_Click);
             // 
             // trackMenuBtn
             // 
-            resources.ApplyResources(this.trackMenuBtn, "trackMenuBtn");
             this.trackMenuBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.trackMenuBtn.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.trackSaveAsBtn,
             this.toolStripSeparator7,
             this.trackClearBtn});
+            resources.ApplyResources(this.trackMenuBtn, "trackMenuBtn");
             this.trackMenuBtn.Name = "trackMenuBtn";
             // 
             // trackSaveAsBtn
             // 
-            resources.ApplyResources(this.trackSaveAsBtn, "trackSaveAsBtn");
             this.trackSaveAsBtn.Name = "trackSaveAsBtn";
+            resources.ApplyResources(this.trackSaveAsBtn, "trackSaveAsBtn");
             this.trackSaveAsBtn.Click += new System.EventHandler(this.trackSaveAsBtn_Click);
             // 
             // toolStripSeparator7
             // 
-            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             this.toolStripSeparator7.Name = "toolStripSeparator7";
+            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             // 
             // trackClearBtn
             // 
-            resources.ApplyResources(this.trackClearBtn, "trackClearBtn");
             this.trackClearBtn.Name = "trackClearBtn";
+            resources.ApplyResources(this.trackClearBtn, "trackClearBtn");
             this.trackClearBtn.Click += new System.EventHandler(this.trackClearBtn_Click);
             // 
             // toolStripSeparator3
             // 
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
             // settingsBtn
             // 
-            resources.ApplyResources(this.settingsBtn, "settingsBtn");
             this.settingsBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.settingsBtn, "settingsBtn");
             this.settingsBtn.Name = "settingsBtn";
             this.settingsBtn.Click += new System.EventHandler(this.settingsBtn_Click);
             // 
             // infoBtn
             // 
-            resources.ApplyResources(this.infoBtn, "infoBtn");
             this.infoBtn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.infoBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.infoBtn, "infoBtn");
             this.infoBtn.Name = "infoBtn";
             this.infoBtn.Click += new System.EventHandler(this.infoBtn_Click);
             // 
@@ -274,34 +290,35 @@
             // 
             // isAutoQueryBtn
             // 
-            resources.ApplyResources(this.isAutoQueryBtn, "isAutoQueryBtn");
             this.isAutoQueryBtn.CheckOnClick = true;
             this.isAutoQueryBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.isAutoQueryBtn, "isAutoQueryBtn");
             this.isAutoQueryBtn.Name = "isAutoQueryBtn";
             this.isAutoQueryBtn.Click += new System.EventHandler(this.isAutoQueryBtn_Click);
             // 
             // isAutoSnapshotBtn
             // 
-            resources.ApplyResources(this.isAutoSnapshotBtn, "isAutoSnapshotBtn");
             this.isAutoSnapshotBtn.CheckOnClick = true;
             this.isAutoSnapshotBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.isAutoSnapshotBtn, "isAutoSnapshotBtn");
             this.isAutoSnapshotBtn.Name = "isAutoSnapshotBtn";
             this.isAutoSnapshotBtn.Click += new System.EventHandler(this.isAutoSnapshotBtn_Click);
             // 
             // toolStripSeparator4
             // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
             // mainStatusStrip
             // 
-            resources.ApplyResources(this.mainStatusStrip, "mainStatusStrip");
             this.mainStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.zmaStateLbl,
             this.hdgStateLbl,
             this.gnssStateLbl,
             this.outPortStateLbl,
-            this.remoteActionLbl});
+            this.remoteActionLbl,
+            this.calPortStateLbl});
+            resources.ApplyResources(this.mainStatusStrip, "mainStatusStrip");
             this.mainStatusStrip.Name = "mainStatusStrip";
             // 
             // zmaStateLbl
@@ -321,13 +338,18 @@
             // 
             // outPortStateLbl
             // 
-            resources.ApplyResources(this.outPortStateLbl, "outPortStateLbl");
             this.outPortStateLbl.Name = "outPortStateLbl";
+            resources.ApplyResources(this.outPortStateLbl, "outPortStateLbl");
             // 
             // remoteActionLbl
             // 
-            resources.ApplyResources(this.remoteActionLbl, "remoteActionLbl");
             this.remoteActionLbl.Name = "remoteActionLbl";
+            resources.ApplyResources(this.remoteActionLbl, "remoteActionLbl");
+            // 
+            // calPortStateLbl
+            // 
+            this.calPortStateLbl.Name = "calPortStateLbl";
+            resources.ApplyResources(this.calPortStateLbl, "calPortStateLbl");
             // 
             // ppiViewGroup
             // 
@@ -370,15 +392,15 @@
             // 
             // respondersToolStrip
             // 
-            resources.ApplyResources(this.respondersToolStrip, "respondersToolStrip");
             this.respondersToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.respondersTreeExpandBtn});
+            resources.ApplyResources(this.respondersToolStrip, "respondersToolStrip");
             this.respondersToolStrip.Name = "respondersToolStrip";
             // 
             // respondersTreeExpandBtn
             // 
-            resources.ApplyResources(this.respondersTreeExpandBtn, "respondersTreeExpandBtn");
             this.respondersTreeExpandBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            resources.ApplyResources(this.respondersTreeExpandBtn, "respondersTreeExpandBtn");
             this.respondersTreeExpandBtn.Name = "respondersTreeExpandBtn";
             this.respondersTreeExpandBtn.Click += new System.EventHandler(this.respondersTreeExpandBtn_Click);
             // 
@@ -458,6 +480,9 @@
         private System.Windows.Forms.ToolStripStatusLabel remoteActionLbl;
         private System.Windows.Forms.ToolStrip ppiToolStrip;
         private ppiView ppiView;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripMenuItem stationAngularCalibrationBtn;
+        private System.Windows.Forms.ToolStripStatusLabel calPortStateLbl;
     }
 }
 

@@ -38,8 +38,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UCNLDrivers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UCNLDrivers">
       <HintPath>..\..\..\UCNLLibs\UCNLDrivers\UCNLDrivers\bin\Release\UCNLDrivers.dll</HintPath>
     </Reference>
     <Reference Include="UCNLKML, Version=1.0.7160.21192, Culture=neutral, processorArchitecture=MSIL">
@@ -50,12 +49,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\UCNLLibs\UCNLNav\UCNLNav\bin\Release\UCNLNav.dll</HintPath>
     </Reference>
-    <Reference Include="UCNLUI, Version=1.0.7170.26920, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="UCNLNMEA">
+      <HintPath>..\..\..\UCNLLibs\UCNLNMEA\UCNLNMEA\bin\Release\UCNLNMEA.dll</HintPath>
+    </Reference>
+    <Reference Include="UCNLPhysics, Version=1.0.7406.2597, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\UCNLLibs\UCNLPhysics\UCNLPhysics\bin\Release\UCNLPhysics.dll</HintPath>
+    </Reference>
+    <Reference Include="UCNLUI, Version=1.0.7419.26529, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\UCNLLibs\UCNLUI\UCNLUI\bin\Release\UCNLUI.dll</HintPath>
     </Reference>
-    <Reference Include="ZLibrary, Version=1.0.7159.2145, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="ZLibrary">
       <HintPath>..\..\..\UCNLLibs\ZLibrary\ZLibrary\bin\Release\ZLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
@@ -67,6 +72,11 @@
       <DependentUpon>InfoWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomUI\LocStringManager.cs" />
+    <Compile Include="CustomUI\LocStringResources.ru-RU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocStringResources.ru-RU.resx</DependentUpon>
+    </Compile>
     <Compile Include="CustomUI\RemoteAddressChangeDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +122,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\RemoteAddressChangeDialog.resx">
       <DependentUpon>RemoteAddressChangeDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\RemoteAddressChangeDialog.ru.resx">
       <DependentUpon>RemoteAddressChangeDialog.cs</DependentUpon>
@@ -121,6 +132,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\RemoteCommandDialog.resx">
       <DependentUpon>RemoteCommandDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomUI\RemoteCommandDialog.ru.resx">
       <DependentUpon>RemoteCommandDialog.cs</DependentUpon>
@@ -162,6 +174,7 @@
     </Compile>
     <EmbeddedResource Include="CustomUI\SettingsEditor.resx">
       <DependentUpon>SettingsEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

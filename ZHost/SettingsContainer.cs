@@ -51,6 +51,13 @@ namespace ZHost
         /// Added on 18-JAN-2020
         public bool IsSaveAUXToLog;
 
+        /// Added on 14-JUL-2020        
+        public bool IsCalBuoy;
+        public string CalBuoyPortName;
+        public BaudRate CalBuoyPortBaudrate;
+        public ZAddress CalBuoyResponderAddress;
+        public int CalPointsNumber;
+
         #endregion
         
         #region Methods
@@ -72,7 +79,7 @@ namespace ZHost
 
             IsAUX2 = false;
             AUX2PortName = "COM1";
-            AUX2PortBaudrate = BaudRate.baudRate9600;
+            AUX2PortBaudrate = BaudRate.baudRate9600;                       
 
             RespondersInUseAddresses = new ZAddress[] { ZAddress.Responder_1 };
 
@@ -94,6 +101,13 @@ namespace ZHost
 
             /// Added on 18-JAN-2020
             IsSaveAUXToLog = false;
+
+            /// Added on 14-JUL-2020
+            IsCalBuoy = false;
+            CalBuoyPortName = "COM1";
+            CalBuoyPortBaudrate = BaudRate.baudRate9600;
+            CalBuoyResponderAddress = ZAddress.Responder_1;
+            CalPointsNumber = 64;
         }
 
         public override string ToString()

@@ -24,7 +24,7 @@ namespace ZHost
         ZCore zcore;
         TSLogProvider logger;
         TSLogProvider outputPortLogger;
-        SimpeSettingsProviderXML<SettingsContainer> settingsProvider;
+        SimpleSettingsProviderXML<SettingsContainer> settingsProvider;
 
         string settingsFileName;
         string logPath;
@@ -97,7 +97,7 @@ namespace ZHost
 
             #region settings
 
-            settingsProvider = new SimpeSettingsProviderXML<SettingsContainer>();
+            settingsProvider = new SimpleSettingsProviderXML<SettingsContainer>();
             settingsProvider.isSwallowExceptions = false;
 
             logger.Write(string.Format("Loading settings from {0}", settingsFileName));
@@ -135,24 +135,34 @@ namespace ZHost
             zcore.HDGPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, hdgStateLbl, string.Format("HDG: {0}", zcore.HDGPortState));
             zcore.GeoLocationUpdatedEventHandler += (o, e) => TracksWritePoint(e.ItemName, new GeoPoint3DTm(e.Latitude, e.Longitude, e.Depth, e.TimeStamp));
             zcore.OutPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, outPortStateLbl, string.Format("OUT: {0}", zcore.OutPortState));
+            zcore.CalPortStateChangedEventHandler += (o, e) => InvokeSetText(mainStatusStrip, calPortStateLbl, string.Format("CAL: {0}", zcore.CalPortState));
 
             if (settingsProvider.Data.IsAUX1 || settingsProvider.Data.IsAUX2)
             {
-                List<SerialPortSettings> auxPortsSettings = new List<SerialPortSettings>();
+                Dictionary<string, SerialPortSettings> auxPortsSettings = new Dictionary<string, SerialPortSettings>();
 
                 if (settingsProvider.Data.IsAUX1)
-                    auxPortsSettings.Add(new SerialPortSettings(settingsProvider.Data.AUX1PortName, settingsProvider.Data.AUX1PortBaudrate,
+                    auxPortsSettings.Add("AUX1", new SerialPortSettings(settingsProvider.Data.AUX1PortName, settingsProvider.Data.AUX1PortBaudrate,
                         System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None));
 
                 if (settingsProvider.Data.IsAUX2)
-                    auxPortsSettings.Add(new SerialPortSettings(settingsProvider.Data.AUX2PortName, settingsProvider.Data.AUX2PortBaudrate,
+                    auxPortsSettings.Add("AUX2", new SerialPortSettings(settingsProvider.Data.AUX2PortName, settingsProvider.Data.AUX2PortBaudrate,
                         System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None));
+
+                if (settingsProvider.Data.IsCalBuoy)
+                {
+                    auxPortsSettings.Add("CAL", new SerialPortSettings(settingsProvider.Data.CalBuoyPortName, settingsProvider.Data.CalBuoyPortBaudrate,
+                        System.IO.Ports.Parity.None, DataBits.dataBits8, System.IO.Ports.StopBits.One, System.IO.Ports.Handshake.None));
+
+                    zcore.AngularCalibrationFinishedEventHandler += new EventHandler(zcore_AngularCalibrationFinished);
+                    zcore.AngularCalibrationResultEventHandler += new EventHandler<AngularCalibrationResultEventArgs>(zcore_AngularCalibrationResult);
+                }
 
                 zcore.IsSaveAUXLog = settingsProvider.Data.IsSaveAUXToLog;
 
                 try
                 {
-                    zcore.AUXSourcesInit(auxPortsSettings.ToArray());
+                    zcore.AUXSourcesInit(auxPortsSettings, settingsProvider.Data.IsCalBuoy);
                 }
                 catch (Exception ex)
                 {
@@ -252,6 +262,14 @@ namespace ZHost
                 item.Enabled = isEnabled;
         }
 
+        private void InvokeSetCheckedState(ToolStrip strip, ToolStripMenuItem item, bool isChecked)
+        {
+            if (strip.InvokeRequired)
+                strip.Invoke((MethodInvoker)delegate { item.Checked = isChecked; });
+            else
+                item.Checked = isChecked;
+        }
+
         private void InvokeSetBackColor(StatusStrip strip, ToolStripStatusLabel lbl, Color backColor)
         {
             if (strip.InvokeRequired)
@@ -349,6 +367,7 @@ namespace ZHost
 
             stationViewInfoBtn.Enabled = false;
             stationZeroDepthAdjustmentBtn.Enabled = false;
+            stationAngularCalibrationBtn.Enabled = false;
 
             responderRemoteCommandSendBtn.Enabled = false;
             responderChangeAddressBtn.Enabled = false;
@@ -368,6 +387,10 @@ namespace ZHost
             responderRemoteCommandSendBtn.Enabled = !newState && zcore.IsRunning && zcore.IsStationDeviceInfoUpdated;
             responderChangeAddressBtn.Enabled = !newState && zcore.IsRunning && zcore.IsStationDeviceInfoUpdated;
             responderZeroDepthAdjustBtn.Enabled = !newState && zcore.IsRunning && zcore.IsStationDeviceInfoUpdated;
+
+            stationAngularCalibrationBtn.Enabled = settingsProvider.Data.IsCalBuoy &&
+                newState && zcore.IsRunning && zcore.IsStationDeviceInfoUpdated;
+            
             logger.Write(string.Format("IsAutoQuery = {0}", zcore.IsAutoQuery));
         }
 
@@ -497,6 +520,8 @@ namespace ZHost
             string[] lines = null;
             bool isOk = false;
 
+            bool isCal = false;
+
             try
             {
                 lines = File.ReadAllLines(fileName);
@@ -510,16 +535,25 @@ namespace ZHost
             if (isOk)
             {
                 // Disable controls
+             
                 mainToolStrip.Enabled = false;
 
                 foreach (var line in lines)
                 {
-                    int stIdx = line.IndexOf('$');
-                    if (stIdx >= 0)
+                    if (line.IndexOf('$') >= 0)
                     {
-                        var str = line.Substring(stIdx) + "\r\n";
-                        zcore.EmulationInput(str);                        
-                        Application.DoEvents();                        
+                        var str = line;
+                        if (!str.EndsWith("\r\n"))
+                            str = str + "\r\n";
+
+                        if (!isCal && !zcore.IsAngularCalibration && str.Contains("CAL"))
+                        {
+                            isCal = true;
+                            zcore.AngularCalibrationStart(64);
+                        }
+
+                        zcore.EmulationInput(str);
+                        Application.DoEvents();
                     }
                 }
 
@@ -603,6 +637,26 @@ namespace ZHost
                     {
                         ProcessException(ex, true);
                     }
+                }
+            }
+        }
+
+        private void stationAngularCalibrationBtn_Click(object sender, EventArgs e)
+        {
+            if (zcore.IsAngularCalibration)
+            {
+                zcore.AngularCalibrationForceStop();
+            }
+            else
+            {
+                try
+                {
+                    zcore.AngularCalibrationStart(settingsProvider.Data.CalPointsNumber);
+                    stationAngularCalibrationBtn.Checked = true;
+                }
+                catch (Exception ex)
+                {
+                    ProcessException(ex, true);
                 }
             }
         }
@@ -957,7 +1011,41 @@ namespace ZHost
                 zcore_RespondersUpdatedEventHandler(this, e);
         }
 
-        #endregion
+        private void zcore_AngularCalibrationFinished(object sender, EventArgs e)
+        {
+            InvokeSetCheckedState(mainToolStrip, stationAngularCalibrationBtn, false);
+        }
+
+        private void zcore_AngularCalibrationResult(object sender, AngularCalibrationResultEventArgs e)
+        {
+
+            double delta = 0.0;
+            if (e.GNSSAzimuth > e.USBLAzimuth)
+                delta = e.GNSSAzimuth - e.USBLAzimuth;
+            else
+                delta = 360 - (e.USBLAzimuth - e.GNSSAzimuth);
+
+            var r_str = logger.Write(string.Format("GNSS {0} (DRMS={1:F03} m, AZM={2:F01}°), USBL {3} (DRMS={4:F03} m, AZM={5:F01}°). Delta={6:F01}°",
+                e.GNSSCentroid.ToString(), e.GNSSDRMS, e.GNSSAzimuth,
+                e.USBLCentroid.ToString(), e.USBLDMRS, e.USBLAzimuth,
+                delta));
+
+            MessageBox.Show(r_str, LocStringManager.Information_str);
+
+            if (e.USBLDMRS <= 10.0)
+            {
+                settingsProvider.Data.AntennaAdjustAngle = delta;
+                zcore.StationAdjustAngle = delta;
+
+                MessageBox.Show(string.Format("Calibration finished successfully: {0}", r_str), LocStringManager.Information_str);
+            }
+            else
+            {
+                MessageBox.Show(string.Format("Calibration failed (DRMS too large): {0}", r_str), LocStringManager.Information_str);
+            }            
+        }
+
+        #endregion        
 
         #endregion
     }

@@ -121,7 +121,7 @@
   <data name="connectionBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -134,7 +134,7 @@
 </value>
   </data>
   <data name="connectionBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 25</value>
+    <value>155, 32</value>
   </data>
   <data name="connectionBtn.Text" xml:space="preserve">
     <value>СОЕДИНЕНИЕ</value>
@@ -142,7 +142,7 @@
   <data name="stationMenuBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -155,7 +155,7 @@
 </value>
   </data>
   <data name="stationMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+    <value>122, 32</value>
   </data>
   <data name="stationMenuBtn.Text" xml:space="preserve">
     <value>СТАНЦИЯ</value>
@@ -163,7 +163,7 @@
   <data name="responderMenuBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -176,7 +176,7 @@
 </value>
   </data>
   <data name="responderMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 25</value>
+    <value>84, 32</value>
   </data>
   <data name="responderMenuBtn.Text" xml:space="preserve">
     <value>МАЯК</value>
@@ -184,7 +184,7 @@
   <data name="logMenuBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -197,7 +197,7 @@
 </value>
   </data>
   <data name="logMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 25</value>
+    <value>114, 32</value>
   </data>
   <data name="logMenuBtn.Text" xml:space="preserve">
     <value>ЖУРНАЛ</value>
@@ -205,7 +205,7 @@
   <data name="trackMenuBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -218,7 +218,7 @@
 </value>
   </data>
   <data name="trackMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
+    <value>73, 32</value>
   </data>
   <data name="trackMenuBtn.Text" xml:space="preserve">
     <value>ТРЕК</value>
@@ -226,7 +226,7 @@
   <data name="settingsBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -239,7 +239,7 @@
 </value>
   </data>
   <data name="settingsBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 25</value>
+    <value>141, 32</value>
   </data>
   <data name="settingsBtn.Text" xml:space="preserve">
     <value>НАСТРОЙКИ</value>
@@ -247,7 +247,7 @@
   <data name="infoBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -260,88 +260,97 @@
 </value>
   </data>
   <data name="infoBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 25</value>
+    <value>79, 32</value>
   </data>
   <data name="infoBtn.Text" xml:space="preserve">
     <value>ИНФО</value>
   </data>
   <data name="stationViewInfoBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 26</value>
+    <value>327, 32</value>
   </data>
   <data name="stationViewInfoBtn.Text" xml:space="preserve">
     <value>ИНФОРМАЦИЯ</value>
   </data>
   <data name="stationZeroDepthAdjustmentBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 26</value>
+    <value>327, 32</value>
   </data>
   <data name="stationZeroDepthAdjustmentBtn.Text" xml:space="preserve">
     <value>КАЛИБРОВКА ГЛУБИНЫ</value>
   </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 6</value>
+  </data>
+  <data name="stationAngularCalibrationBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
+  </data>
+  <data name="stationAngularCalibrationBtn.Text" xml:space="preserve">
+    <value>УГЛОВАЯ КАЛИБРОВКА</value>
+  </data>
   <data name="responderRemoteCommandSendBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>419, 26</value>
+    <value>514, 32</value>
   </data>
   <data name="responderRemoteCommandSendBtn.Text" xml:space="preserve">
     <value>ПОСЛАТЬ КОМАНДУ...</value>
   </data>
   <data name="responderChangeAddressBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>419, 26</value>
+    <value>514, 32</value>
   </data>
   <data name="responderChangeAddressBtn.Text" xml:space="preserve">
     <value>СМЕНИТЬ АДРЕС...</value>
   </data>
   <data name="responderZeroDepthAdjustBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>419, 26</value>
+    <value>514, 32</value>
   </data>
   <data name="responderZeroDepthAdjustBtn.Text" xml:space="preserve">
     <value>КАЛИБРОВКА АТМОСФЕРНОГО ДАВЛЕНИЯ</value>
   </data>
   <data name="logViewBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 26</value>
+    <value>370, 32</value>
   </data>
   <data name="logViewBtn.Text" xml:space="preserve">
     <value>ПРОСМОТР</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 6</value>
+    <value>367, 6</value>
   </data>
   <data name="logAnalyzeCurrentBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 26</value>
+    <value>370, 32</value>
   </data>
   <data name="logAnalyzeCurrentBtn.Text" xml:space="preserve">
     <value>АНАЛИЗИРОВАТЬ ТЕКУЩИЙ</value>
   </data>
   <data name="logAnalyzeBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 26</value>
+    <value>370, 32</value>
   </data>
   <data name="logAnalyzeBtn.Text" xml:space="preserve">
     <value>АНАЛИЗИРОВАТЬ...</value>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 6</value>
+    <value>367, 6</value>
   </data>
   <data name="logRestartCurrentBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 26</value>
+    <value>370, 32</value>
   </data>
   <data name="logRestartCurrentBtn.Text" xml:space="preserve">
     <value>ПЕРЕЗАПУСТИТЬ ТЕКУЩИЙ</value>
   </data>
   <data name="logClearBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 26</value>
+    <value>370, 32</value>
   </data>
   <data name="logClearBtn.Text" xml:space="preserve">
     <value>УДАЛИТЬ ВСЕ ЖУРНАЛЫ</value>
   </data>
   <data name="trackSaveAsBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 26</value>
+    <value>265, 32</value>
   </data>
   <data name="trackSaveAsBtn.Text" xml:space="preserve">
     <value>СОХРАНИТЬ КАК...</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 6</value>
+    <value>262, 6</value>
   </data>
   <data name="trackClearBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 26</value>
+    <value>265, 32</value>
   </data>
   <data name="trackClearBtn.Text" xml:space="preserve">
     <value>ОЧИСТИТЬ</value>
@@ -349,7 +358,7 @@
   <data name="isAutoQueryBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -362,7 +371,7 @@
 </value>
   </data>
   <data name="isAutoQueryBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 22</value>
+    <value>127, 27</value>
   </data>
   <data name="isAutoQueryBtn.Text" xml:space="preserve">
     <value>АВТОЗАПРОС</value>
@@ -370,7 +379,7 @@
   <data name="isAutoSnapshotBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -383,7 +392,7 @@
 </value>
   </data>
   <data name="isAutoSnapshotBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
+    <value>155, 27</value>
   </data>
   <data name="isAutoSnapshotBtn.Text" xml:space="preserve">
     <value>АВТОСКРИНШОТ</value>
@@ -397,7 +406,7 @@
   <data name="respondersTreeExpandBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -411,9 +420,5 @@
   </data>
   <data name="respondersTreeExpandBtn.ToolTipText" xml:space="preserve">
     <value>Развернуть</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
   </data>
 </root>
