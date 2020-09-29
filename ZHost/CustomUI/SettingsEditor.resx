@@ -121,17 +121,341 @@
   <data name="mainTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="isSaveAUXToLogChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="isUseCalBouyChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isUseCalBouyChb.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="isUseCalBouyChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="isUseCalBouyChb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="isUseCalBouyChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 415</value>
+  </data>
+  <data name="isUseCalBouyChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="isUseCalBouyChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 29</value>
+  </data>
+  <data name="isUseCalBouyChb.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="isUseCalBouyChb.Text" xml:space="preserve">
+    <value>Use calibration buoy</value>
+  </data>
+  <data name="&gt;&gt;isUseCalBouyChb.Name" xml:space="preserve">
+    <value>isUseCalBouyChb</value>
+  </data>
+  <data name="&gt;&gt;isUseCalBouyChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isUseCalBouyChb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="&gt;&gt;isUseCalBouyChb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 127</value>
+  </data>
+  <data name="label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Number of points</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="calPointsNumCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="calPointsNumCbx.Items" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="calPointsNumCbx.Items1" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="calPointsNumCbx.Items2" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="calPointsNumCbx.Items3" xml:space="preserve">
+    <value>256</value>
+  </data>
+  <data name="calPointsNumCbx.Items4" xml:space="preserve">
+    <value>512</value>
+  </data>
+  <data name="calPointsNumCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 164</value>
+  </data>
+  <data name="calPointsNumCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="calPointsNumCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="calPointsNumCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;calPointsNumCbx.Name" xml:space="preserve">
+    <value>calPointsNumCbx</value>
+  </data>
+  <data name="&gt;&gt;calPointsNumCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calPointsNumCbx.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;calPointsNumCbx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 127</value>
+  </data>
+  <data name="label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 25</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Responder address</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="calBuoyResponderAddressCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="calBuoyResponderAddressCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 164</value>
+  </data>
+  <data name="calBuoyResponderAddressCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="calBuoyResponderAddressCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="calBuoyResponderAddressCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;calBuoyResponderAddressCbx.Name" xml:space="preserve">
+    <value>calBuoyResponderAddressCbx</value>
+  </data>
+  <data name="&gt;&gt;calBuoyResponderAddressCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calBuoyResponderAddressCbx.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;calBuoyResponderAddressCbx.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 41</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Port name</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="calBuoyBaudrateCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="calBuoyBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 78</value>
+  </data>
+  <data name="calBuoyBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="calBuoyBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="calBuoyBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;calBuoyBaudrateCbx.Name" xml:space="preserve">
+    <value>calBuoyBaudrateCbx</value>
+  </data>
+  <data name="&gt;&gt;calBuoyBaudrateCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calBuoyBaudrateCbx.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;calBuoyBaudrateCbx.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="calBuoyPortNameCbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="calBuoyPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 78</value>
+  </data>
+  <data name="calBuoyPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="calBuoyPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="calBuoyPortNameCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;calBuoyPortNameCbx.Name" xml:space="preserve">
+    <value>calBuoyPortNameCbx</value>
+  </data>
+  <data name="&gt;&gt;calBuoyPortNameCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calBuoyPortNameCbx.Parent" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;calBuoyPortNameCbx.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="calBuoyGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calBuoyGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 456</value>
+  </data>
+  <data name="calBuoyGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="calBuoyGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="calBuoyGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 213</value>
+  </data>
+  <data name="calBuoyGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="calBuoyGroup.Text" xml:space="preserve">
+    <value>Calibration buoy</value>
+  </data>
+  <data name="&gt;&gt;calBuoyGroup.Name" xml:space="preserve">
+    <value>calBuoyGroup</value>
+  </data>
+  <data name="&gt;&gt;calBuoyGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calBuoyGroup.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="&gt;&gt;calBuoyGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="isSaveAUXToLogChb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="isSaveAUXToLogChb.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="isSaveAUXToLogChb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
@@ -139,10 +463,10 @@
     <value>NoControl</value>
   </data>
   <data name="isSaveAUXToLogChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 372</value>
+    <value>420, 364</value>
   </data>
   <data name="isSaveAUXToLogChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isSaveAUXToLogChb.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 29</value>
@@ -163,10 +487,7 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;isSaveAUXToLogChb.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="isUseOutputPortChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+    <value>2</value>
   </data>
   <data name="isUseOutputPortChb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -175,10 +496,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="isUseOutputPortChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 202</value>
+    <value>11, 188</value>
   </data>
   <data name="isUseOutputPortChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isUseOutputPortChb.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 29</value>
@@ -199,10 +520,40 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;isUseOutputPortChb.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
-  <data name="outputPortGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="isUseAUX1Chb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isUseAUX1Chb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="isUseAUX1Chb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 12</value>
+  </data>
+  <data name="isUseAUX1Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="isUseAUX1Chb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 29</value>
+  </data>
+  <data name="isUseAUX1Chb.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="isUseAUX1Chb.Text" xml:space="preserve">
+    <value>Use AUX1</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.Name" xml:space="preserve">
+    <value>isUseAUX1Chb</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.Parent" xml:space="preserve">
+    <value>connectionTabPage</value>
+  </data>
+  <data name="&gt;&gt;isUseAUX1Chb.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="isOutputPortSaveSeparatelyChb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -211,10 +562,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="isOutputPortSaveSeparatelyChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 195</value>
+    <value>17, 218</value>
   </data>
   <data name="isOutputPortSaveSeparatelyChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isOutputPortSaveSeparatelyChb.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 29</value>
@@ -241,10 +592,10 @@
     <value>True</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 116</value>
+    <value>12, 126</value>
   </data>
   <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 25</value>
@@ -271,13 +622,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="outputPortResponderAddressCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 146</value>
+    <value>17, 163</value>
   </data>
   <data name="outputPortResponderAddressCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="outputPortResponderAddressCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="outputPortResponderAddressCbx.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -298,10 +649,10 @@
     <value>True</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 36</value>
+    <value>200, 41</value>
   </data>
   <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 25</value>
@@ -328,10 +679,10 @@
     <value>True</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 36</value>
+    <value>12, 41</value>
   </data>
   <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 25</value>
@@ -358,13 +709,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="outputPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 66</value>
+    <value>205, 78</value>
   </data>
   <data name="outputPortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="outputPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="outputPortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -385,13 +736,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="outputPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 66</value>
+    <value>17, 78</value>
   </data>
   <data name="outputPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="outputPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="outputPortNameCbx.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -412,16 +763,16 @@
     <value>False</value>
   </data>
   <data name="outputPortGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 241</value>
+    <value>11, 229</value>
   </data>
   <data name="outputPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="outputPortGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="outputPortGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 266</value>
+    <value>397, 440</value>
   </data>
   <data name="outputPortGroup.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -439,10 +790,7 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;outputPortGroup.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="isUseAUX2Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>5</value>
   </data>
   <data name="isUseAUX2Chb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -451,10 +799,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="isUseAUX2Chb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 202</value>
+    <value>437, 188</value>
   </data>
   <data name="isUseAUX2Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isUseAUX2Chb.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 29</value>
@@ -475,19 +823,16 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;isUseAUX2Chb.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="aux2PortGoup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>6</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 36</value>
+    <value>200, 41</value>
   </data>
   <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 25</value>
@@ -514,10 +859,10 @@
     <value>True</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 36</value>
+    <value>12, 41</value>
   </data>
   <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 25</value>
@@ -544,13 +889,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="aux2PortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 66</value>
+    <value>205, 78</value>
   </data>
   <data name="aux2PortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux2PortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="aux2PortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -571,13 +916,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="aux2PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 66</value>
+    <value>17, 78</value>
   </data>
   <data name="aux2PortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux2PortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="aux2PortNameCbx.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -598,16 +943,16 @@
     <value>False</value>
   </data>
   <data name="aux2PortGoup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 241</value>
+    <value>420, 229</value>
   </data>
   <data name="aux2PortGoup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux2PortGoup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux2PortGoup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 111</value>
+    <value>397, 123</value>
   </data>
   <data name="aux2PortGoup.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -625,55 +970,16 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;aux2PortGoup.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="isUseAUX1Chb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="isUseAUX1Chb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="isUseAUX1Chb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="isUseAUX1Chb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 11</value>
-  </data>
-  <data name="isUseAUX1Chb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
-  </data>
-  <data name="isUseAUX1Chb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 29</value>
-  </data>
-  <data name="isUseAUX1Chb.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="isUseAUX1Chb.Text" xml:space="preserve">
-    <value>Use AUX1</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.Name" xml:space="preserve">
-    <value>isUseAUX1Chb</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.Parent" xml:space="preserve">
-    <value>connectionTabPage</value>
-  </data>
-  <data name="&gt;&gt;isUseAUX1Chb.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="aux1PortGoup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+    <value>7</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 36</value>
+    <value>200, 41</value>
   </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 25</value>
@@ -700,10 +1006,10 @@
     <value>True</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 36</value>
+    <value>12, 41</value>
   </data>
   <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 25</value>
@@ -730,13 +1036,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="aux1PortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 66</value>
+    <value>205, 78</value>
   </data>
   <data name="aux1PortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux1PortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="aux1PortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -757,13 +1063,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="aux1PortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 66</value>
+    <value>17, 78</value>
   </data>
   <data name="aux1PortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux1PortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="aux1PortNameCbx.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -784,16 +1090,16 @@
     <value>False</value>
   </data>
   <data name="aux1PortGoup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 51</value>
+    <value>420, 53</value>
   </data>
   <data name="aux1PortGoup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux1PortGoup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="aux1PortGoup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 111</value>
+    <value>397, 123</value>
   </data>
   <data name="aux1PortGoup.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -811,16 +1117,16 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;aux1PortGoup.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 36</value>
+    <value>200, 41</value>
   </data>
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 25</value>
@@ -850,10 +1156,10 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 36</value>
+    <value>12, 41</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 25</value>
@@ -880,13 +1186,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="zmaPortBaudrateCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 66</value>
+    <value>205, 78</value>
   </data>
   <data name="zmaPortBaudrateCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="zmaPortBaudrateCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="zmaPortBaudrateCbx.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -907,13 +1213,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="zmaPortNameCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 66</value>
+    <value>17, 78</value>
   </data>
   <data name="zmaPortNameCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="zmaPortNameCbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 33</value>
+    <value>176, 33</value>
   </data>
   <data name="zmaPortNameCbx.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -931,16 +1237,16 @@
     <value>3</value>
   </data>
   <data name="zmaPortGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 51</value>
+    <value>11, 53</value>
   </data>
   <data name="zmaPortGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="zmaPortGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="zmaPortGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 111</value>
+    <value>397, 123</value>
   </data>
   <data name="zmaPortGroup.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -958,19 +1264,19 @@
     <value>connectionTabPage</value>
   </data>
   <data name="&gt;&gt;zmaPortGroup.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="connectionTabPage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 40</value>
   </data>
   <data name="connectionTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="connectionTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="connectionTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>905, 521</value>
+    <value>838, 706</value>
   </data>
   <data name="connectionTabPage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1003,10 +1309,10 @@
     <value>NoControl</value>
   </data>
   <data name="isHeadingFixedChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 69</value>
+    <value>12, 82</value>
   </data>
   <data name="isHeadingFixedChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isHeadingFixedChb.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 29</value>
@@ -1036,10 +1342,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="isRoughDepthChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 32</value>
+    <value>12, 41</value>
   </data>
   <data name="isRoughDepthChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isRoughDepthChb.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 29</value>
@@ -1063,16 +1369,16 @@
     <value>1</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 315</value>
+    <value>298, 382</value>
   </data>
   <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 190</value>
+    <value>488, 141</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1105,10 +1411,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="soundSpeedLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 22</value>
+    <value>437, 41</value>
   </data>
   <data name="soundSpeedLink.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="soundSpeedLink.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 25</value>
@@ -1138,13 +1444,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="soundSpeedEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 20</value>
+    <value>309, 39</value>
   </data>
   <data name="soundSpeedEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="soundSpeedEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 32</value>
+    <value>116, 32</value>
   </data>
   <data name="soundSpeedEdit.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1165,10 +1471,10 @@
     <value>True</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 29</value>
+    <value>12, 41</value>
   </data>
   <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 25</value>
@@ -1195,16 +1501,16 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 111</value>
+    <value>1, 124</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 5, 6, 5</value>
   </data>
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 84</value>
+    <value>486, 94</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1228,16 +1534,16 @@
     <value>False</value>
   </data>
   <data name="soundSpeedGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 240</value>
+    <value>298, 282</value>
   </data>
   <data name="soundSpeedGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="soundSpeedGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="soundSpeedGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 65</value>
+    <value>488, 88</value>
   </data>
   <data name="soundSpeedGroup.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1264,10 +1570,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="isAutocalculateSoundSpeedChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 201</value>
+    <value>298, 241</value>
   </data>
   <data name="isAutocalculateSoundSpeedChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="isAutocalculateSoundSpeedChb.Size" type="System.Drawing.Size, System.Drawing">
     <value>292, 29</value>
@@ -1303,10 +1609,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="salinityLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 22</value>
+    <value>439, 41</value>
   </data>
   <data name="salinityLink.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="salinityLink.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 25</value>
@@ -1336,13 +1642,13 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="salinityEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 20</value>
+    <value>311, 39</value>
   </data>
   <data name="salinityEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="salinityEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 32</value>
+    <value>116, 32</value>
   </data>
   <data name="salinityEdit.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1363,10 +1669,10 @@
     <value>True</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 29</value>
+    <value>12, 41</value>
   </data>
   <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 25</value>
@@ -1390,16 +1696,16 @@
     <value>2</value>
   </data>
   <data name="salinityGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 126</value>
+    <value>298, 141</value>
   </data>
   <data name="salinityGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="salinityGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="salinityGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 66</value>
+    <value>490, 88</value>
   </data>
   <data name="salinityGroup.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1429,10 +1735,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="maxDistanceEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 61</value>
+    <value>311, 83</value>
   </data>
   <data name="maxDistanceEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="maxDistanceEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 32</value>
@@ -1456,10 +1762,10 @@
     <value>True</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 64</value>
+    <value>12, 85</value>
   </data>
   <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 25</value>
@@ -1489,10 +1795,10 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="dataObsoleteThresholdEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 20</value>
+    <value>311, 39</value>
   </data>
   <data name="dataObsoleteThresholdEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="dataObsoleteThresholdEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 32</value>
@@ -1516,10 +1822,10 @@
     <value>True</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 29</value>
+    <value>12, 41</value>
   </data>
   <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 25</value>
@@ -1543,16 +1849,16 @@
     <value>3</value>
   </data>
   <data name="timingsGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 11</value>
+    <value>298, 12</value>
   </data>
   <data name="timingsGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="timingsGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="timingsGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 105</value>
+    <value>488, 129</value>
   </data>
   <data name="timingsGroup.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1642,10 +1948,10 @@
     <value>Unselect all</value>
   </data>
   <data name="respondersToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>6, 30</value>
   </data>
   <data name="respondersToolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 35</value>
+    <value>263, 35</value>
   </data>
   <data name="respondersToolStrip.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1675,13 +1981,13 @@
     <value>False</value>
   </data>
   <data name="usedRespondersChl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 72</value>
+    <value>8, 81</value>
   </data>
   <data name="usedRespondersChl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="usedRespondersChl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 414</value>
+    <value>256, 591</value>
   </data>
   <data name="usedRespondersChl.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1699,16 +2005,16 @@
     <value>1</value>
   </data>
   <data name="usedRespondersGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 11</value>
+    <value>11, 12</value>
   </data>
   <data name="usedRespondersGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="usedRespondersGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="usedRespondersGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 494</value>
+    <value>275, 682</value>
   </data>
   <data name="usedRespondersGroup.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1732,13 +2038,13 @@
     <value>4, 40</value>
   </data>
   <data name="commonTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="commonTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="commonTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>905, 521</value>
+    <value>838, 706</value>
   </data>
   <data name="commonTabPage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1758,8 +2064,41 @@
   <data name="&gt;&gt;commonTabPage.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="pbRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="isUseVTGAsHeadingSourceChb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.8pt, style=Bold</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 671</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 29</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="isUseVTGAsHeadingSourceChb.Text" xml:space="preserve">
+    <value>Use VTG data as heading source (not recommended)</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Name" xml:space="preserve">
+    <value>isUseVTGAsHeadingSourceChb</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Parent" xml:space="preserve">
+    <value>miscTabPage</value>
+  </data>
+  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="pbRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2070,13 +2409,16 @@
 </value>
   </data>
   <data name="pbRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>506, 91</value>
+    <value>369, 103</value>
   </data>
   <data name="pbRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="pbRight.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="pbRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 379</value>
+    <value>386, 425</value>
   </data>
   <data name="pbRight.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -2094,7 +2436,7 @@
     <value>miscTabPage</value>
   </data>
   <data name="&gt;&gt;pbRight.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="pbLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2258,13 +2600,16 @@
 </value>
   </data>
   <data name="pbLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 91</value>
+    <value>12, 103</value>
   </data>
   <data name="pbLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="pbLeft.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="pbLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 379</value>
+    <value>345, 425</value>
   </data>
   <data name="pbLeft.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -2282,55 +2627,19 @@
     <value>miscTabPage</value>
   </data>
   <data name="&gt;&gt;pbLeft.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 478</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 29</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="isUseVTGAsHeadingSourceChb.Text" xml:space="preserve">
-    <value>Use VTG data as heading source (not recommended)</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Name" xml:space="preserve">
-    <value>isUseVTGAsHeadingSourceChb</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.Parent" xml:space="preserve">
-    <value>miscTabPage</value>
-  </data>
-  <data name="&gt;&gt;isUseVTGAsHeadingSourceChb.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="deltaEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="deltaEdit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="deltaEdit.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="deltaEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>771, 50</value>
+    <value>278, 56</value>
   </data>
   <data name="deltaEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="deltaEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 32</value>
@@ -2350,17 +2659,14 @@
   <data name="&gt;&gt;deltaEdit.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 21</value>
+    <value>273, 19</value>
   </data>
   <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 25</value>
@@ -2383,14 +2689,17 @@
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="dXEdit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="dXEdit.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="dXEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 50</value>
+    <value>145, 56</value>
   </data>
   <data name="dXEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="dXEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 32</value>
@@ -2414,10 +2723,10 @@
     <value>True</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 21</value>
+    <value>140, 19</value>
   </data>
   <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 25</value>
@@ -2440,14 +2749,17 @@
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="dYEdit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="dYEdit.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="dYEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 50</value>
+    <value>12, 56</value>
   </data>
   <data name="dYEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="dYEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 32</value>
@@ -2471,10 +2783,10 @@
     <value>True</value>
   </data>
   <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 21</value>
+    <value>12, 19</value>
   </data>
   <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 25</value>
@@ -2501,13 +2813,13 @@
     <value>4, 40</value>
   </data>
   <data name="miscTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="miscTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="miscTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>905, 521</value>
+    <value>838, 706</value>
   </data>
   <data name="miscTabPage.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2527,17 +2839,20 @@
   <data name="&gt;&gt;miscTabPage.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="mainTabControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.8pt</value>
+  </data>
   <data name="mainTabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 24</value>
+    <value>22, 27</value>
   </data>
   <data name="mainTabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="mainTabControl.Padding" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
   </data>
   <data name="mainTabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>913, 565</value>
+    <value>846, 750</value>
   </data>
   <data name="mainTabControl.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2561,13 +2876,13 @@
     <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
   </data>
   <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>799, 600</value>
+    <value>731, 788</value>
   </data>
   <data name="cancelBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="cancelBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 44</value>
+    <value>137, 50</value>
   </data>
   <data name="cancelBtn.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2594,13 +2909,13 @@
     <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
   </data>
   <data name="okBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 600</value>
+    <value>526, 788</value>
   </data>
   <data name="okBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="okBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 44</value>
+    <value>137, 50</value>
   </data>
   <data name="okBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2627,13 +2942,13 @@
     <value>Segoe UI, 9.75pt, style=Bold, Underline</value>
   </data>
   <data name="setDefaultsBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 601</value>
+    <value>22, 791</value>
   </data>
   <data name="setDefaultsBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="setDefaultsBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 44</value>
+    <value>186, 50</value>
   </data>
   <data name="setDefaultsBtn.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2657,16 +2972,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>11, 25</value>
+    <value>11, 28</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>954, 662</value>
+    <value>888, 858</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
+    <value>Segoe UI, 12pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SettingsEditor</value>

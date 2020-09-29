@@ -69,6 +69,12 @@ namespace ZHost.CustomUI
                 result.IsHeadingFixed = isHeadingFixed;
                 result.IsSaveAUXToLog = isSaveAUXToLog;
 
+                result.IsCalBuoy = isUseCalBuoy;
+                result.CalBuoyPortName = calBuoyPortName;
+                result.CalBuoyPortBaudrate = calBuoyPortBaudRate;
+                result.CalBuoyResponderAddress = calBuoyResponderAddress;
+                result.CalPointsNumber = calPointsNumber;
+
                 return result;
             }
             set
@@ -99,11 +105,16 @@ namespace ZHost.CustomUI
                 zmaPortName = value.ZPortName;
                 isHeadingFixed = value.IsHeadingFixed;
                 isSaveAUXToLog = value.IsSaveAUXToLog;
+
+                isUseCalBuoy = value.IsCalBuoy;
+                calBuoyPortName = value.CalBuoyPortName;
+                calBuoyPortBaudRate = value.CalBuoyPortBaudrate;
+                calBuoyResponderAddress = value.CalBuoyResponderAddress;
+                calPointsNumber = value.CalPointsNumber;
             }
         }
 
         #region CONNECTION Tab
-
 
         string zmaPortName
         {
@@ -188,6 +199,36 @@ namespace ZHost.CustomUI
             set { UIUtils.TrySetCbxItem(aux2PortBaudrateCbx, value.ToString()); }
         }
 
+
+        bool isUseCalBuoy
+        {
+            get { return isUseCalBouyChb.Checked; }
+            set { isUseCalBouyChb.Checked = value; }
+        }
+
+        string calBuoyPortName
+        {
+            get { return UIUtils.TryGetCbxItem(calBuoyPortNameCbx); }
+            set { UIUtils.TrySetCbxItem(calBuoyPortNameCbx, value); }
+        }
+
+        UCNLDrivers.BaudRate calBuoyPortBaudRate
+        {
+            get { return (UCNLDrivers.BaudRate)Enum.Parse(typeof(UCNLDrivers.BaudRate), UIUtils.TryGetCbxItem(calBuoyBaudrateCbx)); }
+            set { UIUtils.TrySetCbxItem(calBuoyBaudrateCbx, value.ToString()); }
+        }
+
+        ZAddress calBuoyResponderAddress
+        {
+            get { return (ZAddress)Enum.Parse(typeof(ZAddress), UIUtils.TryGetCbxItem(calBuoyResponderAddressCbx)); }
+            set { UIUtils.TrySetCbxItem(calBuoyResponderAddressCbx, value.ToString()); }
+        }
+
+        int calPointsNumber
+        {
+            get { return Convert.ToInt32(UIUtils.TryGetCbxItem(calPointsNumCbx)); }
+            set { UIUtils.TrySetCbxItem(calPointsNumCbx, value.ToString()); }
+        }
 
         #endregion
 
@@ -314,31 +355,37 @@ namespace ZHost.CustomUI
                 aux1PortNameCbx.Items.AddRange(portNames);
                 aux2PortNameCbx.Items.AddRange(portNames);
                 outputPortNameCbx.Items.AddRange(portNames);
+                calBuoyPortNameCbx.Items.AddRange(portNames);
 
                 zmaPortNameCbx.SelectedIndex = 0;
                 aux1PortNameCbx.SelectedIndex = 0;
                 aux2PortNameCbx.SelectedIndex = 0;
                 outputPortNameCbx.SelectedIndex = 0;
+                calBuoyPortNameCbx.SelectedIndex = 0;
 
                 var baudRates = Enum.GetNames(typeof(UCNLDrivers.BaudRate));
                 zmaPortBaudrateCbx.Items.AddRange(baudRates);
                 aux1PortBaudrateCbx.Items.AddRange(baudRates);
                 aux2PortBaudrateCbx.Items.AddRange(baudRates);
                 outputPortBaudrateCbx.Items.AddRange(baudRates);
+                calBuoyBaudrateCbx.Items.AddRange(baudRates);
 
                 zmaBaudRate = UCNLDrivers.BaudRate.baudRate9600;
                 aux1PortBaudRate = UCNLDrivers.BaudRate.baudRate9600;
                 aux2PortBaudRate = UCNLDrivers.BaudRate.baudRate9600;
                 outputPortBaudrate = UCNLDrivers.BaudRate.baudRate9600;
+                calBuoyPortBaudRate = UCNLDrivers.BaudRate.baudRate9600;
 
                 var zaddressesList = new List<string>(Enum.GetNames(typeof(ZAddress)));
                 zaddressesList.RemoveAt(zaddressesList.Count - 1);
                 var zaddresses = zaddressesList.ToArray();
 
                 outputPortResponderAddressCbx.Items.AddRange(zaddresses);
+                calBuoyResponderAddressCbx.Items.AddRange(zaddresses);
                 usedRespondersChl.Items.AddRange(zaddresses);
 
                 outputPortResponderAddress = ZAddress.Responder_1;
+                calBuoyResponderAddress = ZAddress.Responder_1;
             }
 
             isUseAUX1 = false;
@@ -361,8 +408,10 @@ namespace ZHost.CustomUI
                      (!isUseOutputPort || !string.IsNullOrEmpty(outputPortName)) &&
                      (!isUseAUX1 || !string.IsNullOrEmpty(aux1PortName)) &&
                      (!isUseAUX2 || !string.IsNullOrEmpty(aux2PortName)) &&
-                     (usedRespondersCount > 0);
-
+                     (!isUseCalBuoy || !string.IsNullOrEmpty(calBuoyPortName)) &&
+                     (usedRespondersCount > 0) &&
+                     (!isUseOutputPort || !isUseCalBuoy || (calBuoyResponderAddress != outputPortResponderAddress));
+                     
             if (result)
             {
                 List<string> ports = new List<string>();
@@ -395,6 +444,17 @@ namespace ZHost.CustomUI
                             else
                                 ports.Add(aux2PortName);
                         }
+
+                        if (result)
+                        {
+                            if (isUseCalBuoy)
+                            {
+                                if (ports.Contains(calBuoyPortName))
+                                    result = false;
+                                else
+                                    ports.Add(calBuoyPortName);
+                            }
+                        }
                     }
                 }
             }
@@ -407,6 +467,10 @@ namespace ZHost.CustomUI
             isSaveAUXToLogChb.Enabled = isUseAUX1 || isUseAUX2;
             if (!isSaveAUXToLogChb.Enabled)
                 isSaveAUXToLog = false;
+
+            isUseCalBouyChb.Enabled = isUseAUX1 || isUseAUX2;
+            if (!isUseCalBouyChb.Enabled)
+                isUseCalBuoy = false;
         }
 
         #endregion
@@ -520,6 +584,22 @@ namespace ZHost.CustomUI
             CheckSettingsValidity();
         }
 
-        #endregion
+        private void isUseCalBouyChb_CheckedChanged(object sender, EventArgs e)
+        {
+            calBuoyGroup.Enabled = isUseCalBuoy;
+            CheckSettingsValidity();
+        }
+
+        private void calBuoyPortNameCbx_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CheckSettingsValidity();
+        }
+
+        private void calBuoyResponderAddressCbx_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CheckSettingsValidity();
+        }
+
+        #endregion                
     }
 }

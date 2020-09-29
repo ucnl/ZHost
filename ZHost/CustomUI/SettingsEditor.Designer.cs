@@ -31,8 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsEditor));
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.connectionTabPage = new System.Windows.Forms.TabPage();
+            this.isUseCalBouyChb = new System.Windows.Forms.CheckBox();
+            this.calBuoyGroup = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.calBuoyResponderAddressCbx = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.calBuoyBaudrateCbx = new System.Windows.Forms.ComboBox();
+            this.calBuoyPortNameCbx = new System.Windows.Forms.ComboBox();
             this.isSaveAUXToLogChb = new System.Windows.Forms.CheckBox();
             this.isUseOutputPortChb = new System.Windows.Forms.CheckBox();
+            this.isUseAUX1Chb = new System.Windows.Forms.CheckBox();
             this.outputPortGroup = new System.Windows.Forms.GroupBox();
             this.isOutputPortSaveSeparatelyChb = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -47,7 +56,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.aux2PortBaudrateCbx = new System.Windows.Forms.ComboBox();
             this.aux2PortNameCbx = new System.Windows.Forms.ComboBox();
-            this.isUseAUX1Chb = new System.Windows.Forms.CheckBox();
             this.aux1PortGoup = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -83,9 +91,9 @@
             this.deselectAllBtn = new System.Windows.Forms.ToolStripButton();
             this.usedRespondersChl = new System.Windows.Forms.CheckedListBox();
             this.miscTabPage = new System.Windows.Forms.TabPage();
+            this.isUseVTGAsHeadingSourceChb = new System.Windows.Forms.CheckBox();
             this.pbRight = new System.Windows.Forms.PictureBox();
             this.pbLeft = new System.Windows.Forms.PictureBox();
-            this.isUseVTGAsHeadingSourceChb = new System.Windows.Forms.CheckBox();
             this.deltaEdit = new System.Windows.Forms.NumericUpDown();
             this.label16 = new System.Windows.Forms.Label();
             this.dXEdit = new System.Windows.Forms.NumericUpDown();
@@ -95,8 +103,11 @@
             this.cancelBtn = new System.Windows.Forms.Button();
             this.okBtn = new System.Windows.Forms.Button();
             this.setDefaultsBtn = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.calPointsNumCbx = new System.Windows.Forms.ComboBox();
             this.mainTabControl.SuspendLayout();
             this.connectionTabPage.SuspendLayout();
+            this.calBuoyGroup.SuspendLayout();
             this.outputPortGroup.SuspendLayout();
             this.aux2PortGoup.SuspendLayout();
             this.aux1PortGoup.SuspendLayout();
@@ -131,17 +142,78 @@
             // 
             // connectionTabPage
             // 
+            this.connectionTabPage.Controls.Add(this.isUseCalBouyChb);
+            this.connectionTabPage.Controls.Add(this.calBuoyGroup);
             this.connectionTabPage.Controls.Add(this.isSaveAUXToLogChb);
             this.connectionTabPage.Controls.Add(this.isUseOutputPortChb);
+            this.connectionTabPage.Controls.Add(this.isUseAUX1Chb);
             this.connectionTabPage.Controls.Add(this.outputPortGroup);
             this.connectionTabPage.Controls.Add(this.isUseAUX2Chb);
             this.connectionTabPage.Controls.Add(this.aux2PortGoup);
-            this.connectionTabPage.Controls.Add(this.isUseAUX1Chb);
             this.connectionTabPage.Controls.Add(this.aux1PortGoup);
             this.connectionTabPage.Controls.Add(this.zmaPortGroup);
             resources.ApplyResources(this.connectionTabPage, "connectionTabPage");
             this.connectionTabPage.Name = "connectionTabPage";
             this.connectionTabPage.UseVisualStyleBackColor = true;
+            // 
+            // isUseCalBouyChb
+            // 
+            resources.ApplyResources(this.isUseCalBouyChb, "isUseCalBouyChb");
+            this.isUseCalBouyChb.Name = "isUseCalBouyChb";
+            this.isUseCalBouyChb.UseVisualStyleBackColor = true;
+            this.isUseCalBouyChb.CheckedChanged += new System.EventHandler(this.isUseCalBouyChb_CheckedChanged);
+            // 
+            // calBuoyGroup
+            // 
+            this.calBuoyGroup.Controls.Add(this.label20);
+            this.calBuoyGroup.Controls.Add(this.calPointsNumCbx);
+            this.calBuoyGroup.Controls.Add(this.label19);
+            this.calBuoyGroup.Controls.Add(this.calBuoyResponderAddressCbx);
+            this.calBuoyGroup.Controls.Add(this.label17);
+            this.calBuoyGroup.Controls.Add(this.label18);
+            this.calBuoyGroup.Controls.Add(this.calBuoyBaudrateCbx);
+            this.calBuoyGroup.Controls.Add(this.calBuoyPortNameCbx);
+            resources.ApplyResources(this.calBuoyGroup, "calBuoyGroup");
+            this.calBuoyGroup.Name = "calBuoyGroup";
+            this.calBuoyGroup.TabStop = false;
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.Name = "label19";
+            // 
+            // calBuoyResponderAddressCbx
+            // 
+            this.calBuoyResponderAddressCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.calBuoyResponderAddressCbx, "calBuoyResponderAddressCbx");
+            this.calBuoyResponderAddressCbx.FormattingEnabled = true;
+            this.calBuoyResponderAddressCbx.Name = "calBuoyResponderAddressCbx";
+            this.calBuoyResponderAddressCbx.SelectedIndexChanged += new System.EventHandler(this.calBuoyResponderAddressCbx_SelectedIndexChanged);
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.Name = "label18";
+            // 
+            // calBuoyBaudrateCbx
+            // 
+            this.calBuoyBaudrateCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.calBuoyBaudrateCbx, "calBuoyBaudrateCbx");
+            this.calBuoyBaudrateCbx.FormattingEnabled = true;
+            this.calBuoyBaudrateCbx.Name = "calBuoyBaudrateCbx";
+            // 
+            // calBuoyPortNameCbx
+            // 
+            this.calBuoyPortNameCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.calBuoyPortNameCbx, "calBuoyPortNameCbx");
+            this.calBuoyPortNameCbx.FormattingEnabled = true;
+            this.calBuoyPortNameCbx.Name = "calBuoyPortNameCbx";
+            this.calBuoyPortNameCbx.SelectedIndexChanged += new System.EventHandler(this.calBuoyPortNameCbx_SelectedIndexChanged);
             // 
             // isSaveAUXToLogChb
             // 
@@ -156,9 +228,15 @@
             this.isUseOutputPortChb.UseVisualStyleBackColor = true;
             this.isUseOutputPortChb.CheckedChanged += new System.EventHandler(this.isUseOutputPortChb_CheckedChanged);
             // 
+            // isUseAUX1Chb
+            // 
+            resources.ApplyResources(this.isUseAUX1Chb, "isUseAUX1Chb");
+            this.isUseAUX1Chb.Name = "isUseAUX1Chb";
+            this.isUseAUX1Chb.UseVisualStyleBackColor = true;
+            this.isUseAUX1Chb.CheckedChanged += new System.EventHandler(this.isUseAUX1Chb_CheckedChanged);
+            // 
             // outputPortGroup
             // 
-            resources.ApplyResources(this.outputPortGroup, "outputPortGroup");
             this.outputPortGroup.Controls.Add(this.isOutputPortSaveSeparatelyChb);
             this.outputPortGroup.Controls.Add(this.label9);
             this.outputPortGroup.Controls.Add(this.outputPortResponderAddressCbx);
@@ -166,6 +244,7 @@
             this.outputPortGroup.Controls.Add(this.label8);
             this.outputPortGroup.Controls.Add(this.outputPortBaudrateCbx);
             this.outputPortGroup.Controls.Add(this.outputPortNameCbx);
+            resources.ApplyResources(this.outputPortGroup, "outputPortGroup");
             this.outputPortGroup.Name = "outputPortGroup";
             this.outputPortGroup.TabStop = false;
             // 
@@ -221,11 +300,11 @@
             // 
             // aux2PortGoup
             // 
-            resources.ApplyResources(this.aux2PortGoup, "aux2PortGoup");
             this.aux2PortGoup.Controls.Add(this.label5);
             this.aux2PortGoup.Controls.Add(this.label6);
             this.aux2PortGoup.Controls.Add(this.aux2PortBaudrateCbx);
             this.aux2PortGoup.Controls.Add(this.aux2PortNameCbx);
+            resources.ApplyResources(this.aux2PortGoup, "aux2PortGoup");
             this.aux2PortGoup.Name = "aux2PortGoup";
             this.aux2PortGoup.TabStop = false;
             // 
@@ -254,20 +333,13 @@
             this.aux2PortNameCbx.Name = "aux2PortNameCbx";
             this.aux2PortNameCbx.SelectedIndexChanged += new System.EventHandler(this.aux2PortNameCbx_SelectedIndexChanged);
             // 
-            // isUseAUX1Chb
-            // 
-            resources.ApplyResources(this.isUseAUX1Chb, "isUseAUX1Chb");
-            this.isUseAUX1Chb.Name = "isUseAUX1Chb";
-            this.isUseAUX1Chb.UseVisualStyleBackColor = true;
-            this.isUseAUX1Chb.CheckedChanged += new System.EventHandler(this.isUseAUX1Chb_CheckedChanged);
-            // 
             // aux1PortGoup
             // 
-            resources.ApplyResources(this.aux1PortGoup, "aux1PortGoup");
             this.aux1PortGoup.Controls.Add(this.label3);
             this.aux1PortGoup.Controls.Add(this.label4);
             this.aux1PortGoup.Controls.Add(this.aux1PortBaudrateCbx);
             this.aux1PortGoup.Controls.Add(this.aux1PortNameCbx);
+            resources.ApplyResources(this.aux1PortGoup, "aux1PortGoup");
             this.aux1PortGoup.Name = "aux1PortGoup";
             this.aux1PortGoup.TabStop = false;
             // 
@@ -567,9 +639,9 @@
             // 
             // miscTabPage
             // 
+            this.miscTabPage.Controls.Add(this.isUseVTGAsHeadingSourceChb);
             this.miscTabPage.Controls.Add(this.pbRight);
             this.miscTabPage.Controls.Add(this.pbLeft);
-            this.miscTabPage.Controls.Add(this.isUseVTGAsHeadingSourceChb);
             this.miscTabPage.Controls.Add(this.deltaEdit);
             this.miscTabPage.Controls.Add(this.label16);
             this.miscTabPage.Controls.Add(this.dXEdit);
@@ -579,6 +651,12 @@
             resources.ApplyResources(this.miscTabPage, "miscTabPage");
             this.miscTabPage.Name = "miscTabPage";
             this.miscTabPage.UseVisualStyleBackColor = true;
+            // 
+            // isUseVTGAsHeadingSourceChb
+            // 
+            resources.ApplyResources(this.isUseVTGAsHeadingSourceChb, "isUseVTGAsHeadingSourceChb");
+            this.isUseVTGAsHeadingSourceChb.Name = "isUseVTGAsHeadingSourceChb";
+            this.isUseVTGAsHeadingSourceChb.UseVisualStyleBackColor = false;
             // 
             // pbRight
             // 
@@ -591,12 +669,6 @@
             resources.ApplyResources(this.pbLeft, "pbLeft");
             this.pbLeft.Name = "pbLeft";
             this.pbLeft.TabStop = false;
-            // 
-            // isUseVTGAsHeadingSourceChb
-            // 
-            resources.ApplyResources(this.isUseVTGAsHeadingSourceChb, "isUseVTGAsHeadingSourceChb");
-            this.isUseVTGAsHeadingSourceChb.Name = "isUseVTGAsHeadingSourceChb";
-            this.isUseVTGAsHeadingSourceChb.UseVisualStyleBackColor = true;
             // 
             // deltaEdit
             // 
@@ -616,8 +688,8 @@
             // 
             // dXEdit
             // 
-            this.dXEdit.DecimalPlaces = 3;
             resources.ApplyResources(this.dXEdit, "dXEdit");
+            this.dXEdit.DecimalPlaces = 3;
             this.dXEdit.Maximum = new decimal(new int[] {
             999,
             0,
@@ -637,8 +709,8 @@
             // 
             // dYEdit
             // 
-            this.dYEdit.DecimalPlaces = 3;
             resources.ApplyResources(this.dYEdit, "dYEdit");
+            this.dYEdit.DecimalPlaces = 3;
             this.dYEdit.Maximum = new decimal(new int[] {
             999,
             0,
@@ -677,6 +749,24 @@
             this.setDefaultsBtn.UseVisualStyleBackColor = true;
             this.setDefaultsBtn.Click += new System.EventHandler(this.setDefaultsBtn_Click);
             // 
+            // label20
+            // 
+            resources.ApplyResources(this.label20, "label20");
+            this.label20.Name = "label20";
+            // 
+            // calPointsNumCbx
+            // 
+            this.calPointsNumCbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.calPointsNumCbx, "calPointsNumCbx");
+            this.calPointsNumCbx.FormattingEnabled = true;
+            this.calPointsNumCbx.Items.AddRange(new object[] {
+            resources.GetString("calPointsNumCbx.Items"),
+            resources.GetString("calPointsNumCbx.Items1"),
+            resources.GetString("calPointsNumCbx.Items2"),
+            resources.GetString("calPointsNumCbx.Items3"),
+            resources.GetString("calPointsNumCbx.Items4")});
+            this.calPointsNumCbx.Name = "calPointsNumCbx";
+            // 
             // SettingsEditor
             // 
             resources.ApplyResources(this, "$this");
@@ -692,6 +782,8 @@
             this.mainTabControl.ResumeLayout(false);
             this.connectionTabPage.ResumeLayout(false);
             this.connectionTabPage.PerformLayout();
+            this.calBuoyGroup.ResumeLayout(false);
+            this.calBuoyGroup.PerformLayout();
             this.outputPortGroup.ResumeLayout(false);
             this.outputPortGroup.PerformLayout();
             this.aux2PortGoup.ResumeLayout(false);
@@ -797,5 +889,15 @@
         private System.Windows.Forms.PictureBox pbRight;
         private System.Windows.Forms.CheckBox isHeadingFixedChb;
         private System.Windows.Forms.CheckBox isSaveAUXToLogChb;
+        private System.Windows.Forms.CheckBox isUseCalBouyChb;
+        private System.Windows.Forms.GroupBox calBuoyGroup;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox calBuoyBaudrateCbx;
+        private System.Windows.Forms.ComboBox calBuoyPortNameCbx;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ComboBox calBuoyResponderAddressCbx;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox calPointsNumCbx;
     }
 }
